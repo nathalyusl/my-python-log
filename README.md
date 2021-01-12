@@ -7,9 +7,9 @@ text normal
     ident x = 1 
     x + 1 
   
-** My love **
+**My love**
 
-__ my curly __
+__my curly__
 
 `wer`
 
