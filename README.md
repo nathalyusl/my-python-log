@@ -4,12 +4,12 @@ text normal
 - lista 
 - down 
 
-    ident x = 1 
-    x + 1 
+      ident x = 1 
+      x + 1 
   
 **My love**
 
-__my curly__
+_my curly_
 
 `wer`
 
