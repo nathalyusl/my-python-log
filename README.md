@@ -1,5 +1,6 @@
 # My Python log 
-## Whatever 
+## The beginnings in the phytorian
+![me beautiful](http://www.reportingday.com/wp-content/uploads/2018/06/Cat-Sleeping-Pics.jpg)
 text normal 
 - lista 
 - down 
@@ -13,5 +14,5 @@ _my curly_
 
 `wer`
 
-![me beautiful](http://www.reportingday.com/wp-content/uploads/2018/06/Cat-Sleeping-Pics.jpg)
+
 
