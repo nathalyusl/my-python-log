@@ -13,11 +13,6 @@ Legend has it that starting to learn to program python makes a difference, which
       x = x + 5 
     Print (x)
 
-
-  
-    
-
-
 `wer`
 
 
