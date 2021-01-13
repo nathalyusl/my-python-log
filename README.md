@@ -1,6 +1,6 @@
 # My Python log 
 ## The beginnings in the phytorian
-![me beautiful](http://www.reportingday.com/wp-content/uploads/2018/06/Cat-Sleeping-Pics.jpg)
+![me beautiful](imgs/slytherin_python.jpeg)
 text normal 
 - lista 
 - down 
