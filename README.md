@@ -1,4 +1,4 @@
-# My Python log 
+# My Python log :notebook_with_decorative_cover:
 ## The beginnings in the phytorian
 
 <img src="./imgs/slytherin_python.jpeg" width="48">
