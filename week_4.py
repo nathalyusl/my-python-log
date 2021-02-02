@@ -38,7 +38,7 @@ b = 12.50
 c = a * b
 print(c)
 
-#
+# Mnecomic means that we choose a variable name that makes sense (sentido) for what we're using it for.
 
 
 
