@@ -1,12 +1,16 @@
 print("hello world")
 
-name_list = ["Diana", "Moe", "Tarzan"]
+name_list = ["diana", "moe", "tarzan"]
 
-last_name_list = ["Altamirano", "Win", "Selva"]
+last_name_list = ["gog", "win", "gat"]
 
-full_name = []
+full_name_list = []
 
 for i in range(3):
-    name2 = name
-    last_name2 = last_name
-    full_name = name2 + "" + last_name2
+    name = name_list[i]
+    last_name = last_name_list[i]
+    full_name = name + " " + last_name
+    full_name_list.append(full_name)
+
+
+
