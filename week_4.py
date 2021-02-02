@@ -17,8 +17,13 @@ print(x)
 
 # Python variable name rules (Algunas reglas de nomenclatura): ovid use underscores because Python tends to use
 # underscores for its own internal purposes
+# Case sensitive:
 
-good_labels_list = ['spam', 'eggs', 'spam23', '_speed']
+good_variables_list = ['spam', 'eggs', 'spam23', '_speed']
+
+bad_variables_list = ['23spam', '#sing', 'var.12']
+
+different_variables_list = ['spam', 'Spam', 'SPAM'] # eye! these all are different variable names
 
 
 
