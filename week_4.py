@@ -40,5 +40,9 @@ print(c)
 
 # Mnecomic means that we choose a variable name that makes sense (sentido) for what we're using it for.
 
+hours = 35.0
+rate = 12.50
+pay = hours * rate
+print(pay)
 
 
