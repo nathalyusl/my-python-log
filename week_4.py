@@ -23,7 +23,7 @@ good_variables_list = ['spam', 'eggs', 'spam23', '_speed']
 
 bad_variables_list = ['23spam', '#sing', 'var.12']
 
-different_variables_list = ['spam', 'Spam', 'SPAM'] # eye! these all are different variable names
+different_variables_list = ['spam', 'Spam', 'SPAM']   # eye! these all are different variable names
 
 # Sentences or Lines: x: variable, "=" or "+": operator, '2': constant, print(): function.
 
@@ -31,8 +31,9 @@ x = 2       # Assignment statement
 x = x + 2   # Assignment with expressions
 print(x)    # Print statement
 
+# Name the variables using a technique called "Mnemonic"
 
-
+a = 35.0
 
 
 
