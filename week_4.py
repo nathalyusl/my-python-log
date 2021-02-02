@@ -34,7 +34,9 @@ print(x)    # Print statement
 # Name the variables using a technique called "Mnemonic"
 
 a = 35.0
-
+b = 12.50
+c = a * b
+print(c)
 
 
 
