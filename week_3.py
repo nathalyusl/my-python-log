@@ -12,5 +12,6 @@ for i in range(3):
     full_name = name + " " + last_name
     full_name_list.append(full_name)
 
-
+for name in full_name_list:
+    print(name)
 
