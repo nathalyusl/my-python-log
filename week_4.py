@@ -12,3 +12,5 @@ words = ['false', 'class', 'return', 'is', 'finally',
 # Variables: Python, find us a spare piece of memory somewhere and given it a label of x, and put 12.2 in it.
 x = 12.2
 y = 14
+
+print(x)
