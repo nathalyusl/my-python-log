@@ -15,7 +15,13 @@ y = 14
 
 print(x)
 
-# Python variable name rules (Algunas reglas de nomenclatura): ovid use underscores becuase
+# Python variable name rules (Algunas reglas de nomenclatura): ovid use underscores because Python tends to use
+# underscores for its own internal purposes
+
+good_labels_list = ['spam', 'eggs', 'spam23', '_speed']
+
+
+
 
 
 
