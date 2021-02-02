@@ -14,3 +14,8 @@ x = 12.2
 y = 14
 
 print(x)
+
+# Python variable name rules (Algunas reglas de nomenclatura): ovid use underscores becuase
+
+
+
