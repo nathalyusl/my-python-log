@@ -8,3 +8,7 @@ words = ['false', 'class', 'return', 'is', 'finally',
          'as', 'elif', 'try', 'or', 'yield',
          'assert', 'else', 'import', 'pass'
          'break', 'except', 'in', 'raise']
+
+# Variables :
+x = 12.2
+y = 14
