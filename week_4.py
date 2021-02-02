@@ -45,4 +45,6 @@ rate = 12.50
 pay = hours * rate
 print(pay)
 
+# Assignment Statements: are not like mathematics, Equal '=' means equality
 
+x = 3.9 * x * (1 - x)
