@@ -33,11 +33,12 @@ print(x)    # Print statement
 
 # Name the variables using a technique called "Mnemonic"
 
-a = 35.0
+a = 35.0     # this is good but isn't mnemonic
 b = 12.50
 c = a * b
 print(c)
 
+#
 
 
 
