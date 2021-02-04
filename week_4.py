@@ -93,3 +93,10 @@ eee = 'hello ' + 'there'   # means 'concatenate'
 print(eee)
 
 type(eee)
+
+type('hello')
+<class 'str'>
+
+type(1)
+<class 'int'>
+
