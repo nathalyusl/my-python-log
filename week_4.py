@@ -89,7 +89,8 @@ print(tt)
 ddd = 1 + 4               # means 'addition'
 print(ddd)
 
-eee = 'hello ' + 'there'   # means 'concatenate'
+eee = 'hello ' + 'there' # means 'concatenate'
+eee = eee + ' ' + str(1)
 print(eee)
 
 type(eee)
@@ -99,4 +100,6 @@ type('hello')
 
 type(1)
 <class 'int'>
+
+
 
