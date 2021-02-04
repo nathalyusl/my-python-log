@@ -89,6 +89,7 @@ print(tt)
 ddd = 1 + 4               # means 'addition'
 print(ddd)
 
-eee = 'hello' + 'there'   # means 'concatenate'
+eee = 'hello ' + 'there'   # means 'concatenate'
 print(eee)
 
+type(eee)
