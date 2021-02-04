@@ -123,5 +123,11 @@ print(99 / 100)
 print(10.0 / 2.0)
 print(99.0 / 100.0)
 
+# String conversations
+b = '123'
+r = int(b) + 1
 
+# User "input"
 
+nam = input('who are you?')
+print('welcome', nam)
