@@ -57,7 +57,7 @@ x = 3.9 * x * (1 - x)
 '*'      # multiplication
 '/'      # division
 '**'     # power
-'%'      # remainder
+'%'      # remainder: me entrega el resto de una division.
 
 xx = 2
 xx = xx + 2
@@ -73,3 +73,4 @@ jj = 23
 kk = jj % 5
 print(kk)
 
+print(4 ** 3)
