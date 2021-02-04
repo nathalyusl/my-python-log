@@ -52,5 +52,24 @@ x = 3.9 * x * (1 - x)
 
 # Expressions part 2
 # numeric Expressions
-'+'      #addtion
-'-'      #subtraction
+'+'      # addition
+'-'      # subtraction
+'*'      # multiplication
+'/'      # division
+'**'     # power
+'%'      # remainder
+
+xx = 2
+xx = xx + 2
+print(xx)
+
+yy = 440 * 12
+print(yy)
+
+zz = yy / 1000
+print(zz)
+
+jj = 23
+kk = jj % 5
+print(kk)
+
