@@ -101,5 +101,10 @@ type('hello')
 type(1)
 <class 'int'>
 
+temp = 98.6
+type(temp)
+<class 'float'>
+
+
 
 
