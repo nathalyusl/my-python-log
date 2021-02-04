@@ -105,6 +105,19 @@ temp = 98.6
 type(temp)
 <class 'float'>
 
+# Type conversions
+
+print(float(99) + 100)
+
+i = 42
+type(i)
+
+f = float(i)
+print(i)
+
+print(int(99.8) + 45)
+
+
 
 
 
