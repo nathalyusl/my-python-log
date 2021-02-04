@@ -74,3 +74,9 @@ kk = jj % 5
 print(kk)
 
 print(4 ** 3)
+
+# Order of evaluation
+gg = 4
+nn = 1 + (2 * 3) - (gg / (5 ** 6))
+
+#
