@@ -79,4 +79,16 @@ print(4 ** 3)
 gg = 4
 nn = 1 + (2 * 3) - (gg / (5 ** 6))
 
-#
+# Operator Precedence rules: Parenthesis, power, multiplication division, addition, left to right
+
+tt = 1 + 2 ** 3 / 4 * 5
+print(tt)
+
+# Type
+
+ddd = 1 + 4               # means 'addition'
+print(ddd)
+
+eee = 'hello' + 'there'   # means 'concatenate'
+print(eee)
+
