@@ -133,6 +133,11 @@ nam = input('who are you?')
 print('welcome', nam)
 
 # Get the name of the file and open it
-
 name = input('Enter file:')
 handle = open(name, 'r')
+
+# Count word frequency
+counts = dict()
+for line in handle:
+
+
