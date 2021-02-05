@@ -158,6 +158,6 @@ print(bigword, bigcount)
 # Converting User Input (The european elevator converter app)
 # Convert elevator floors
 inp = input('Europe floor?')    #impre el mensaje luego se detiene y espera.
-
+usf = int(inp) + 1
 
 
