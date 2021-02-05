@@ -157,5 +157,7 @@ print(bigword, bigcount)
 # write first code (in, work, out)
 # Converting User Input (The european elevator converter app)
 # Convert elevator floors
+inp = input('Europe floor?')    #impre el mensaje luego se detiene y espera.
+
 
 
