@@ -159,5 +159,7 @@ print(bigword, bigcount)
 # Convert elevator floors
 inp = input('Europe floor?')    #impre el mensaje luego se detiene y espera.
 usf = int(inp) + 1
+print('US floor' , usf)
+
 
 
