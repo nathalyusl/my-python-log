@@ -131,3 +131,5 @@ r = int(b) + 1
 
 nam = input('who are you?')
 print('welcome', nam)
+
+# Get the name of the file and open it
