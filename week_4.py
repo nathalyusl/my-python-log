@@ -152,5 +152,6 @@ for word, count in counts.items():
         bigcount = count
 
 # All done
+print(bigword, bigcount)
 
 
