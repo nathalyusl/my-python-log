@@ -167,3 +167,14 @@ name = input("Enter your name")
 print("Howdy")
 
 
+
+# This first line is provided for you
+
+hrs_str = input("Enter Hours:")
+hrs_float = float(hrs_str)
+rate_str = input("Rate per hour:")
+rate_float = float(rate_str)
+hrs_rate = hrs_float * rate_float
+print('Pay: ' + str(hrs_rate))
+
+
