@@ -174,6 +174,6 @@ print("Howdy")
 
 hrs_str = float(("Enter Hours:")
 rate_str = float(input("Rate per hour:"))
-print('Pay: ' + str(hrs_rate))
+print('Pay: ' + str(hrs_str * rate_str))
 
 
