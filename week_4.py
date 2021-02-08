@@ -172,8 +172,7 @@ print("Howdy")
 # to convert the string to a number. Do not worry about error checking or bad user data.
 # This first line is provided for you
 
-hrs_str = input("Enter Hours:")
-hrs_float = float(hrs_str)
+hrs_str = float(("Enter Hours:")
 rate_str = input("Rate per hour:")
 rate_float = float(rate_str)
 hrs_rate = hrs_float * rate_float
