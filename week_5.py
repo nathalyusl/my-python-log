@@ -91,3 +91,12 @@ print('All Done')
 
 # More conditional Statements: Patrones de ejecución condicional un poco más complejos que podemos construir.
 # elif is a combination to "else" and "if"
+# Multi-way: the rule is one of the three  will run, and the other two will not.
+
+if x < 2:
+    print('small')
+elif x < 10:
+    print('Medium')
+else:
+    print('LARGE')
+print('All done')
