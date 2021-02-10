@@ -19,3 +19,12 @@ print('Finis')
 '!='    # not equal
 
 # EYE '=' es una declaración de asignación
+
+x = 5
+if x ==5:
+    print('Equals 5')
+
+if x > 4:
+    print('Grater than 4')
+
+if
