@@ -54,3 +54,13 @@ if x == 6 :
     print('Is still 6')
     print('Third 6')
 print('Afterwards 6')
+
+# increase / maintain after if or for
+# decrese to indicate end of block
+
+x = 5
+if x > 2 :
+    print('Bigger than 2')
+    print('still bigger')
+print('Done with 2')
+
