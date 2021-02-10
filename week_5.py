@@ -8,3 +8,9 @@ if x > 20:
     print('Bigger')
 
 print('Finis')
+
+# Comparison Operators
+
+'<'     # Less than
+'<='    # less than or equal to
+''
