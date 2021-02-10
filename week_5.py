@@ -43,13 +43,13 @@ if x != 6:
 
 x = 5
 print('Before 5')
-if x == 5 :
+if x == 5:
     print('Is 5')
     print('Is Still 5')
     print('Third 5')
 print('afterwards 5')
 print('Before 6')
-if x == 6 :
+if x == 6:
     print('Is 6')
     print('Is still 6')
     print('Third 6')
@@ -59,8 +59,14 @@ print('Afterwards 6')
 # decrese to indicate end of block
 
 x = 5
-if x > 2 :
+if x > 2:
     print('Bigger than 2')
     print('still bigger')
 print('Done with 2')
 
+for i in range(5):
+    print(i)
+    if i > 2:
+        print('BIgger than 2')
+    print('Done with i', i)
+print('All Done')
