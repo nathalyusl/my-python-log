@@ -80,4 +80,11 @@ if x > 1:
         print('Less than 100')
 print('All Done')
 
-#
+# Two- way Decision
+
+x = 4
+if x > 2:
+    print('Bigger')
+if x < 2:
+    print('Not Bigger')
+print('All Done')
