@@ -88,3 +88,6 @@ if x > 2:
 else x < 2:
     print('Smaller')
 print('All Done')
+
+# More conditional Statements: Patrones de ejecución condicional un poco más complejos que podemos construir.
+# elif is a combination to "else" and "if"
