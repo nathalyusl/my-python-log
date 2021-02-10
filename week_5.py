@@ -70,3 +70,14 @@ for i in range(5):
         print('Bigger than 2')
     print('Done with i', i)
 print('All Done') # only sequential code
+
+# Nested Decisions
+
+x = 42
+if x > 1:
+    print('More than one')
+    if x < 100:
+        print('Less than 100')
+print('All Done')
+
+#
