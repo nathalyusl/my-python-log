@@ -32,3 +32,9 @@ if x >= 5:
 
 if x < 6:
     print('Less than 6')
+
+if x <= 5:
+    print('less than or equal 5')
+
+if x != 6:
+    print('Not equal 6')
