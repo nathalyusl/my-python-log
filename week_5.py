@@ -17,3 +17,5 @@ print('Finis')
 '<='    # Grater than or equal to
 '>'     # Greater than
 '!='    # not equal
+
+# EYE '=' es una declaración de asignación
