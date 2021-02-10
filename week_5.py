@@ -13,4 +13,7 @@ print('Finis')
 
 '<'     # Less than
 '<='    # less than or equal to
-''
+'=='    # Equal to
+'<='    # Grater than or equal to
+'>'     # Greater than
+'!='    # not equal
