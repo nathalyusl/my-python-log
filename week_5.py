@@ -113,3 +113,11 @@ elif x < 100:
     print('Huge')
 else:
     print('Ginormous')
+
+# Try and except
+
+astr = 'Hello Bob'
+try:
+    istr = int(astr)
+except:
+    istr = -1   # es un código que python ejecutará si algo sale mal
