@@ -130,4 +130,21 @@ try:
 except:
     istr = -1
 
+print('Second', istr)astr = '123'
+try:
+    istr = int(astr)
+except:
+    istr = -1
+
 print('Second', istr)
+
+
+astr = 'Bob'
+try:
+    print('Hello')
+    istr = int(astr)
+    print('There')
+except:
+    istr = -1
+
+print('Done', istr)
