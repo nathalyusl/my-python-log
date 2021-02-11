@@ -121,3 +121,6 @@ try:
     istr = int(astr)
 except:
     istr = -1   # es un código que python ejecutará si algo sale mal
+
+print('first', istr)
+
