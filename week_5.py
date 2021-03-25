@@ -168,5 +168,7 @@ if ival > 0:
 else:
     print('Not a number')
 
+# Practice
+
 if x == 0:
     print("Good")
