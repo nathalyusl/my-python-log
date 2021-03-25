@@ -182,4 +182,6 @@ print('Good bay')
 
 age = int(input('¿How all are you?')
 if age < 130:
-    pass
+    pass                  #esta orden le dice a Python que no tiene que hacer nada
+else:
+    print()
