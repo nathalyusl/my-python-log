@@ -185,3 +185,4 @@ if age < 130:
     pass                  #esta orden le dice a Python que no tiene que hacer nada
 else:
     print('Wou! I dont believe it!')
+print(f'Usted dice que tiene {age} años.')
