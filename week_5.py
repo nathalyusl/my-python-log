@@ -172,3 +172,5 @@ else:
 
 if x == 0:
     print("Good")
+
+age = int(input('¿How all are you?')
