@@ -167,3 +167,6 @@ if ival > 0:
     print('Nice work')
 else:
     print('Not a number')
+
+if x == 0:
+    print("Good")
