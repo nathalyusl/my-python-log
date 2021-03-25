@@ -172,9 +172,9 @@ print("Howdy")
 # to convert the string to a number. Do not worry about error checking or bad user data.
 # This first line is provided for you
 
-hrs_float = float(("Enter Hours:")
+hrs_float = float("Enter Hours:")
 rate_float = float(input("Rate per hour:"))
 print('Pay: ' + str(hrs_float * rate_float))
 
-time_hour
+time_hour = float()
 
