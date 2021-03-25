@@ -181,3 +181,4 @@ else age < 18:
 print('Good bay')
 
 age = int(input('¿How all are you?')
+if age > 18:
