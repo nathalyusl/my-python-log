@@ -180,7 +180,7 @@ else age < 18:
     print('Es usted menor de edad')
 print('Good bay')
 
-age = int(input('¿How all are you?')
+age = int(input('¿How all are you?'))
 if age < 130:
     pass                  #esta orden le dice a Python que no tiene que hacer nada
 else:
