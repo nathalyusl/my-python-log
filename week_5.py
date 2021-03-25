@@ -177,3 +177,4 @@ age = int(input('¿How all are you?')
 if age > 18:
     print('Es usted mayor de edad')
 else age < 18:
+    print('Es usted menor de edad')
