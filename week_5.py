@@ -85,7 +85,7 @@ print('All Done')
 x = 4
 if x > 2:
     print('Bigger')
-else x < 2:
+else:
     print('Smaller')
 print('All Done')
 
