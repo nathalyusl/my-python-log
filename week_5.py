@@ -189,3 +189,5 @@ print(f'Usted dice que tiene {age} años.')
 
 millas = int(input('Ingrese las millas'))
 if millas == 80:
+    pass
+else:
