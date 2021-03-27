@@ -191,3 +191,4 @@ millas = int(input('Ingrese las millas'))
 if millas == 80:
     pass
 else:
+    print('Millas correctas')
