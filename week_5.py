@@ -187,4 +187,4 @@ else:
     print('Wou! I dont believe it!')
 print(f'Usted dice que tiene {age} años.')
 
-millas =
+millas = int(input('Ingrese las millas'))
