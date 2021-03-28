@@ -193,3 +193,7 @@ if millas == 80:
 else:
     print('Millas correctas')
 print(f'Usted tiene {millas} millas')
+
+print(f'Usted tiene {millas} millas')
+
+print(f'Usted tiene {millas} millas')
