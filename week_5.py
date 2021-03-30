@@ -194,7 +194,7 @@ else:
     print('Millas correctas')
 print(f'Usted tiene {age} millas')
 
-print(f'Usted tiene {millas} millas')
+print(f'Usted posee {millas} millas')
 
 print(f'Usted tiene {millas} millas')
 
