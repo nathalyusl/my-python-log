@@ -198,6 +198,6 @@ print(f'Usted posee {millas} millas')
 
 print(f'Usted tiene {age} millas')
 
-print(f'Usted tiene {millas} millas')
+print(f'Recuerde que usted tiene {millas} millas')
 
 print(f'Usted tiene {millas} millas')
