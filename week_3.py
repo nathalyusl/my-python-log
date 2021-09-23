@@ -15,3 +15,6 @@ for i in range(3):
 for name in full_name_list:
     print(name)
 
+casa = ((7 * 3 ^ 2 * 4))
+
+print(casa)
