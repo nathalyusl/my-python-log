@@ -5,3 +5,5 @@ print("programa que realiza la suma de dos numeros")
 def dos ():
     x=1
     s=0
+    while x<3:
+        y=1
