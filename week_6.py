@@ -7,3 +7,7 @@ def dos ():
     s=0
     while x<3:
         y=1
+        while y<5:
+            s += x+y
+            y += 1
+        x += 1
