@@ -4,7 +4,7 @@ print("programa que realiza la suma de dos numeros")
 
 print('Ingrese un numero para realizar la suma')
 n1 = input()
-
+print('Primer numero es', n1)
 
 
 def dos ():
