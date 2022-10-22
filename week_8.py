@@ -27,3 +27,5 @@ print(f'El área es: {area}')
 # Class Two
 
 num = 1
+sum = 0
+contador = 0
