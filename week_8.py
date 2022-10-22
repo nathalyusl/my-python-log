@@ -29,3 +29,7 @@ print(f'El área es: {area}')
 num = 1
 sum = 0
 contador = 0
+
+while num != 0:
+  num = int(input('Ingrese un número: '))
+  sum = num + sum
