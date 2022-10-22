@@ -22,3 +22,8 @@ base = int(input())
 print('')
 area = base * altura
 print(f'El área es: {area}')
+
+
+# Class Two
+
+num = 1
