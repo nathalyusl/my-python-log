@@ -33,3 +33,7 @@ contador = 0
 while num != 0:
   num = int(input('Ingrese un número: '))
   sum = num + sum
+  if num != 0:
+    contador = contador + 1
+
+  print(f'Ingresaste: {contador} Números que suma: {sum} ')
