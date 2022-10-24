@@ -71,4 +71,4 @@ if op == 1:
   else:
     print("Preparing Chiken Llapingacho")
 else:
-  print()
+  print("Ingresa [1] si quieres sopa de yaguarlocro o [2] si quieres sopa de caldo de gallina")
