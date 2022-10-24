@@ -72,3 +72,8 @@ if op == 1:
     print("Preparing Chiken Llapingacho")
 else:
   print("Ingresa [1] si quieres sopa de yaguarlocro o [2] si quieres sopa de caldo de gallina")
+  op_3 = int(input())
+  if op_3 == 1:
+    print("Preparing Yaguarlocro")
+  else:
+    print("Preparing Caldo de gallina")
