@@ -52,4 +52,16 @@ if edad < 18:
 
 # Exercise_2: Multiplo del 3
 
-print("Ingrese un numero para saber si es multiplo del 3 ")
+print("Ingrese un numero para saber si es multiplo del 3")
+num = int(input())
+
+if num % 3 == 0:
+  print('El número es multiplo del 3')
+else:
+  print('El número ingresadi no es multiplo del 3')
+
+# Exercises 3 (If_else_Anidados) Elegir Menus
+print('Elige tu menú: 1.Llapingacho o 2.Sopa')
+op = int(input())
+if op == 1:
+  print('Ingresa [1] si quieres llapingacho de carne ')
