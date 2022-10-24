@@ -61,7 +61,14 @@ else:
   print('El número ingresadi no es multiplo del 3')
 
 # Exercises 3 (If_else_Anidados) Elegir Menus
-print('Elige tu menú: 1.Llapingacho o 2.Sopa')
+print('Elige tu menú: 1.Llapingacho o 2.Soup')
 op = int(input())
 if op == 1:
-  print('Ingresa [1] si quieres llapingacho de carne ')
+  print('Ingresa [1] si quieres Beefs llapingacho or [2] Chicken Llapingacho')
+  op_2 = int(input())
+  if op_2 == 1:
+    print("Preparing Beefs Llapingacho")
+  else:
+    print("Preparing Chiken Llapingacho")
+else:
+  print()
