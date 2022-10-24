@@ -37,3 +37,10 @@ while num != 0:
     contador = contador + 1
 
   print(f'Ingresaste: {contador} Números que suma: {sum} ')
+
+
+# Guia_de_ejericios_1
+print('Esribe tu nombre, apellido y edad')
+nombre = input()
+apellido = input()
+edad = input()
