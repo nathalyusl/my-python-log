@@ -40,6 +40,8 @@ while num != 0:
 
 
 # Guia_de_ejericios_1
+
+# Exercise_1
 print('Esribe tu nombre, apellido y edad')
 nombre = input()
 apellido = input()
@@ -47,3 +49,7 @@ edad = int(input())
 
 if edad < 18:
   print(f'Tu eres {nombre} {apellido} y tienes {edad} años.')
+
+# Exercise_2: Multiplo del 3
+
+print("Ingrese un numero para saber si es multiplo del 3 ")
