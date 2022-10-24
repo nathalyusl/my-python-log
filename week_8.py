@@ -43,4 +43,7 @@ while num != 0:
 print('Esribe tu nombre, apellido y edad')
 nombre = input()
 apellido = input()
-edad = input()
+edad = int(input())
+
+if edad < 18:
+  print(f'Tu eres {nombre} {apellido} y tienes {edad} años.')
