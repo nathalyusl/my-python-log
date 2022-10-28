@@ -88,3 +88,12 @@ while i < 5:
     print(i,',',j)
     j= j+1
   i = i+1
+
+# Validacion de datos
+
+print('Ingresa un numero positivo')
+x = int(input())
+
+while x <= 0:
+  print('Ingresar un numero positivo')
+  x = int(input())
