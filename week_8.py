@@ -97,3 +97,7 @@ x = int(input())
 while x <= 0:
   print('Ingresar un numero positivo')
   x = int(input())
+
+# Creacion de Listas
+
+num = input('Ingrese un numero')
