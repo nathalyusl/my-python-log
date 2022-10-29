@@ -100,4 +100,9 @@ while x <= 0:
 
 # Creacion de Listas
 
+lista = []
 num = input('Ingrese un numero')
+
+for i in (range(0,9)):
+  lista.append(num)
+
