@@ -106,3 +106,21 @@ num = input('Ingrese un numero')
 for i in (range(0,9)):
   lista.append(num)
   num = input('Ingrese un numero')
+
+
+# lista
+
+lista = []
+acum = 0
+
+for i in range(10):
+  lista.append(num)
+  num = int(input('Ingrese un numero: '))
+
+print('La lista ingresada fue: ')
+for i in range(10):
+  print(lista[i])
+
+for i in range(10):
+  acum = acum + lista[i]
+print(f'El promedio es: {acum/10}')
