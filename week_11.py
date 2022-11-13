@@ -37,6 +37,7 @@ while flag:
             flag = False
     except:
         print('El numero que ingresaste es incorrecto.')
+        flag = True
 
 # Acumalador de los terminos
 # Inicializar el acumulador en 0
