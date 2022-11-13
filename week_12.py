@@ -46,16 +46,19 @@ while flag:
 #Elaboracion del programa
 
 #Imprimir en pantalla (Encabezados)
-print('{:^2} {:^16}'.format('Mes', 'Total (al final del mes)'))
+print('{:^2} {:^13} {:^16}'.format('Mes', '__', 'Total (al final del mes)'))
 
 #Tranformo mi tasa para poder usarla
 inte = inte * 0.01
 ahorro_1 = ahorro + ((ahorro + 0) * inte)
-print(ahorro_1)
+
+j=1
+print('{:^2} {:^13} {:^16}'.format(j, '    ', ahorro_1))
 ahorro_acum = 0.0
 ahorro_aux= ahorro_1
 
 for i in range(meses -1):
     ahorro_acum = ahorro + ahorro_aux + ((ahorro + ahorro_aux) * inte)
     ahorro_aux = ahorro_acum
-    print(ahorro_acum)
+    print('{:^2} {:^13} {:^16}'.format(j+1, '    ', ahorro_acum))
+    j= j+1
