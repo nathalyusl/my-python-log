@@ -43,9 +43,10 @@ while flag:
 sen_acum = 0
 
 #Imprimir en pantalla (Encabezados)
-print('{:^2} {:^10} {;^16}'.format('Termino', 'n', 'sen(x)'))
+print('{:^2} {:^13} {:^16}'.format('Termino', 'n', 'sen(x)'))
+
 for i in range(n):
     sen_acum = sen_acum + (  ( (-1)**i) * (x**(2*i+1) / math.factorial((2*i + 1)) )  )
-    print('{:^2} {:^10} {;^16}'.format(i+1, i, sen_acum))
-
-
+    print('{:^2d} {:^13d} {:^16.10f}'.format(i+1, i, sen_acum))
+print('')
+print(sen_acum)
