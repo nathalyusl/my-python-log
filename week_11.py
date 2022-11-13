@@ -1,4 +1,3 @@
-
 # <---- PROGRAMA_1 ---->
 # Programa en Python que calcule el seno de x (sin x, donde x debe ir definido en radianes).
 # Nombre: Diana Nathaly Altamirano Diaz
@@ -40,4 +39,13 @@ while flag:
         print('El numero que ingresaste es incorrecto.')
 
 # Acumalador de los terminos
+# Inicializar el acumulador en 0
+sen_acum = 0
+
+#Imprimir en pantalla (Encabezados)
+print('{:^2} {:^10} {;^16}'.format('Termino', 'n', 'sen(x)'))
 for i in range(n):
+    sen_acum = sen_acum + (  ( (-1)**i) * (x**(2*i+1) / math.factorial((2*i + 1)) )  )
+    print('{:^2} {:^10} {;^16}'.format(i+1, i, sen_acum))
+
+
