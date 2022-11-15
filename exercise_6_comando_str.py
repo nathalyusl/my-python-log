@@ -10,5 +10,5 @@ print(stri_1+str(z)) #str transforma a una cadena
 a = 4
 b = 6
 c = a + b
-pp = "La suma es:"
-print(pp+)
+pp = "La suma es: "
+print(pp+str(c))
