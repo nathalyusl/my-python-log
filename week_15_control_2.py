@@ -2,7 +2,8 @@
 # Resuelva el problema expuesto en un único script en Python.
 # Nombres: Diana Nathaly Altamirano Diaz / Nicolas Rebolledo
 print('')
-print('Programa_2')
+print('___________PROGRAMA_____________')
 print('')
-print('En este acertijo los niños deben responder cuántos días tarda una rana en salir de un pozo de cierta profundidad, dado que de día avanza una determinada cantidad de metros y por la noche retrocede una cierta cantidad de metros.')
+print('Este programa permite ingresar dos deportes y determina si la diferencia '
+      'entre las alturas de los jugadores es significativamente distinta.')
 print('')
