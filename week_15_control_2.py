@@ -11,3 +11,25 @@ print('')
 import pandas as pd
 
 df = pd.read_csv('Data_frame/athlete_events.csv')
+
+# Solicitud de 2 deportes al usuario y validacion
+sport = data_interesante['Sport'].unique()
+print(sport)
+
+sport.sort()
+
+#Validación del primer deporte
+A = 'Ninguna'
+while A not in sport:
+  print('\nDeportes disponibles: {}\n'.format( ', '.join(sport) ))
+  A = input("Ingrese un deporte: ").title()
+  if A not in sport:
+    print('El deporte que deseas consultar no se encuentra en la base de datos. Por favor elegir los que estan en la lista.\n')
+
+#Validación del segundo deporte
+B = 'Ninguna'
+while B not in sport:
+  print('\nDeportes disponibles: {}\n'.format( ', '.join(sport) ))
+  B = input("Ingrese otro deporte: ").title()
+  if B not in sport:
+    print('El deporte que deseas consultar no se encuentra en la base de datos. Por favor elegir los que estan en la lista.\n')
