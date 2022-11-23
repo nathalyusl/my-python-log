@@ -40,3 +40,4 @@ while B not in sport:
 if years == []:
   print('')
   print('Resultado:')
+  print(f'El deporte 1.{A} y el 2.{B} no se llevaron acabo en un mismo año.')
