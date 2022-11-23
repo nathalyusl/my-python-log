@@ -33,3 +33,10 @@ while B not in sport:
   B = input("Ingrese otro deporte: ").title()
   if B not in sport:
     print('El deporte que deseas consultar no se encuentra en la base de datos. Por favor elegir los que estan en la lista.\n')
+
+
+
+# Validacion cuando no tienen coicidencia de años
+if years == []:
+  print('')
+  print('Resultado:')
