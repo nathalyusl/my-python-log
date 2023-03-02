@@ -17,9 +17,16 @@ print('Hola'+'Diana Nathaly')  #concatena sin dejar espacio entre hola y diana
 
 print('Hola'+' '+'Diana Nathaly')
 
-#Ejercicio_4
+#_________Ejercicio_4_______________
 
 # MEMORIA RAM: de uso volatil permite almacenar informacion mientras el computador este encendido
-
+# mientras ejecutamos tenemos espacio para los programas.
 
 # MEMORIA DE DISCO: uso permanente kdfgkdkkdfgkdkg
+
+# Operacion de asignacion
+# i <- 2 el numero dos lo voy a guardar o almacenar en la variable i
+# Mediante la asignacion almacenamos un valor en la memoria
+
+i = 23        # integer (int)
+i = 'Hola '   # string  (str)
