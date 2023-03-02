@@ -30,3 +30,10 @@ print('Hola'+' '+'Diana Nathaly')
 
 i = 23        # integer (int)
 i = 'Hola '   # string  (str)
+
+
+# Operaciones aritmeticas
+
+w = 100
+i = 2 + w
+i = i - 3
