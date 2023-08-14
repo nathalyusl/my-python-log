@@ -2,6 +2,7 @@
 # Se puede usar comillas simples o compuesta
 
 print('Hi how you doing')
+print('Hi!')
 print('Hola como estas')
 
 # Exercise_2
