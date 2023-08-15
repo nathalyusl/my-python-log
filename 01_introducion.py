@@ -42,3 +42,12 @@ i = i - 3
 f = 5
 i = 100 + f
 print(i)
+
+# Tipo de datos
+
+x= 9
+y= 7
+z= x-y
+ss= 'el resultado es: '
+
+print(ss+str(z)) #convertir un entero a un string
