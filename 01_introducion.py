@@ -23,7 +23,7 @@ print('Hola'+' '+'Diana Nathaly')
 # MEMORIA RAM: de uso volatil permite almacenar informacion mientras el computador este encendido
 # mientras ejecutamos tenemos espacio para los programas.
 
-# MEMORIA DE DISCO: uso permanente kdfgkdkkdfgkdkg
+# MEMORIA DE DISCO: uso permanente
 
 # Operacion de asignacion
 # i <- 2 el numero dos lo voy a guardar o almacenar en la variable i
@@ -38,3 +38,7 @@ i = 'Hola '   # string  (str)
 w = 100
 i = 2 + w
 i = i - 3
+
+f = 5
+i = 100 + f
+print(i)
