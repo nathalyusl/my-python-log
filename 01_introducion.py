@@ -109,3 +109,16 @@ b = float(input('Ingrese la base del rectangulo: '))
 a = float(input('Ingrese la altura del rectangulo: '))
 area = a*b
 print(f'El area del rectangulo es: {area:.3f}') #FORMATO para que no salgan muchos decimales
+
+# Operadores relacionales
+a=23
+b=4
+
+er= a<b  # la variable er es una variable boolenana
+
+type(er) # conocer que tipo de dato es la ariable
+
+#Condicionales
+
+if True:
+    print('Estoy en el bloque de if')
