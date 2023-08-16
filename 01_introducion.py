@@ -94,3 +94,12 @@ edad = input()
 print('La edad ingresada es: ', int(edad))
 
 edad1= int(input())   #Esta variable
+
+#Programa que calcule el area de un rectangulo
+
+print('Ingrese la base del rectangulo: ')
+b = int(input())
+print('Ingrese la altura del rectangulo: ')
+a = int(input())
+area = a*b
+print(f'El area del rectangulo es: {area}')
