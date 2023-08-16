@@ -51,3 +51,46 @@ z= x-y
 ss= 'el resultado es: '
 
 print(ss+str(z)) #convertir un entero a un string
+
+# Exersises
+
+msg='Mi edad en cinco años más será '
+edad_hoy=21
+
+print(msg + str(edad_hoy+5))
+
+# Exercises
+
+msg = 'El resultado es 2 * 3 + 4 - 12 ** 5 es:'
+resul = 2*3+4-12**5
+
+#TWO ways to present the results
+print(msg + ' '+str(resul))
+print(msg, resul)
+
+a= 5
+b= 3
+
+c = a**b
+
+print(f'El resultado de {a}**{b} es {c}') #Formato
+
+#Exercises
+
+a= '3.14159'   #string
+b= 2.000       #float
+
+c= float(a) + b
+print(c)
+
+#COMANDO input()
+
+ss='El numero ingresado es: '
+x= input()
+print(ss + str(x))
+
+print('Ingrese su edad:')
+edad = input()
+print('La edad ingresada es: ', int(edad))
+
+edad1= int(input())   #Esta variable
