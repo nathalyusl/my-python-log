@@ -122,3 +122,7 @@ type(er) # conocer que tipo de dato es la ariable
 
 if True:
     print('Estoy en el bloque de if')
+
+
+if x<10:
+    print("El número es menor a 10")
