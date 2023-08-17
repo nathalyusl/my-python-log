@@ -128,3 +128,9 @@ if x<10:
     print("El número es menor a 10")
 else:
     print('El número es mayor a 10')
+
+if False:
+    print('estoy en el bloque del if')
+
+area = 10
+w= 8
