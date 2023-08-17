@@ -123,6 +123,8 @@ type(er) # conocer que tipo de dato es la ariable
 if True:
     print('Estoy en el bloque de if')
 
-
+x = int(input('Ingrese un número: '))
 if x<10:
     print("El número es menor a 10")
+else:
+    print('El número es mayor a 10')
