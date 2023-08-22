@@ -248,4 +248,7 @@ num_b = int(input('Ingrese otro número entero: '))
 division = num_a/num_b
 cociente = int(division)
 
-if (num_a - (cociente * num_b))
+if ((num_a - (cociente * num_b)) == 0):
+    print(num_b, 'divide exactamente', num_a)
+else:
+    print(num_b, 'no divide a', num_a, 'en forma entera')
