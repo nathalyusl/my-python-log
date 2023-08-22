@@ -134,3 +134,13 @@ if False:
 
 area = 10
 w= 8
+
+# Program has a consumer date name, last name, age. Use just "if"
+
+name = input('What is your name?')
+last_name = input('what is your last name?')
+age = int(input('How old are you?'))
+
+if age<18:
+    print(name, ', Remember to ask for your tutors autorization code ')
+
