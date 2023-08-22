@@ -264,10 +264,21 @@ discriminante = b**2 -4*a*c
 if(discriminante<0):
     print('No hay soluciones reales')
 else:
-    if(discriminante==0)
+    if(discriminante==0):
         x1= (-b + (discriminante**0.5))/(2*a)
         print(f'Hay una solución real y esta es: {x1}')
     else:
         x1 = (-b + (discriminante**0.5))/(2*a)
         x2 = (-b - (discriminante**0.5))/(2*a)
         print(f'Hay dos soluciones reales estas son: x1 = {x1} y x2 = {x2}')
+
+#Programa que verifica si se puede viajar de la isla a A a la B por la condicion de puentes
+
+print('Ingrese la condición de los puentes: ')
+p1 = int(input('Puente 1:'))
+p2 = int(input('Puente 2:'))
+p3 = int(input('Puente 3:'))
+p4 = int( input('Puente 4:'))
+p5 = int(input('Puente 5:'))
+p6 = int(input('Puente 6:'))
+p7
