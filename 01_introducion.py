@@ -144,3 +144,6 @@ age = int(input('How old are you?'))
 if age<18:
     print(name, ', Remember to ask for your tutors autorization code ')
 
+#Programa que comprueba si un numero es multipo de 3
+
+num = int(input('Ingrese un número'))
