@@ -154,9 +154,17 @@ else:
 
 #Program to choose lunch menu
 
-opcion = int(input('Choose your menu: 1. Hamburguer 2. Pasta'))
+opcion = int(input('Choose your menu: 1. Hamburger 2. Pasta'))
 
 if (opcion == 1):
-    ham = int(input('Enter 1 If you want mett hamburguer or 2 vegetarian hamburger'))
+    ham = int(input('Enter 1 If you want meet hamburger or 2 vegetarian hamburger'))
     if(ham==1):
-        print('Preparing meet hamburguer')
+        print('Preparing meet hamburger')
+    else:
+        print('Preparing vegetarian hamburger')
+else:
+    pas = int(input('Enter 1 if you want bologna pasta or 2 alfredo pasta'))
+    if(pas==1):
+        print('Preparing bologna pasta')
+    else:
+        print('Preparing alfredo pasta')
