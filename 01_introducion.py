@@ -287,3 +287,7 @@ if p1 == 1 and p4 == 1 and (p6 == 1 or p7 == 1):
     print('Si se puede viajar entre las islas')
 elif p2 == 1  and (p6 == 1 or p7 == 1):
     print('Si se puede viajar entre las islas')
+elif p3 == 1 and p5 == 1 and (p6 == 1 or p7 == 1):
+    print('Si se puede viajar entre las islas')
+else:
+    print('No se puede viajar entre las islas')
