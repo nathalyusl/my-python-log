@@ -184,3 +184,18 @@ if(edad == 2):
 
 if (edad == 3):
     print('Presente su cedula para un descuento del 20%')
+
+# Otro forma de hacer el programa de rango de edad con if else
+
+print('Seleccione su rango de edad')
+print('1. Menor de 18 años')
+print('2. Entre 18 y 60 años')
+print('3. Mayor a 61 años')
+edad = int(input())
+
+if (edad==1):
+    print('Para ingresar necesita estar acompañado de sus padres')
+else:
+    if(edad==2):
+        print('Presente su cédula e ingrese.')
+    else:
