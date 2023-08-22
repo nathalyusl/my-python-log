@@ -147,3 +147,7 @@ if age<18:
 #Programa que comprueba si un numero es multipo de 3
 
 num = int(input('Ingrese un número'))
+if (num%3==0):
+    print(f'El número: {num} es multiplo de 3')
+else:
+    print(f'El número: {num} no es multiplo de 3')
