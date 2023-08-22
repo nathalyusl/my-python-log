@@ -291,3 +291,28 @@ elif p3 == 1 and p5 == 1 and (p6 == 1 or p7 == 1):
     print('Si se puede viajar entre las islas')
 else:
     print('No se puede viajar entre las islas')
+
+#Programa: Identifica entre dos fechas, dia, mes, año cual ocurre antes o despues
+
+print('Ingrese la primera fecha (dd/mm/año)')
+dia_1 = int(input('Día: '))
+mes_1 = int(input('Mes: '))
+ano_1 = int(input('Año: '))
+
+print('Ingrese la segunda fecha (dd/mm/año)')
+dia_2 = int(input('Día: '))
+mes_2 = int(input('Mes: '))
+ano_2 = int(input('Año: '))
+
+if (ano_1 < ano_2):
+    print('La fecha 1 ocurrio antes que la fecha 2')
+else:
+    if(ano_2 < ano_1):
+        print('La fecha 2 ocurrio antes que la fecha 1')
+    else:
+        if (mes_1 < mes_2):
+            print('La fecha 1 ocurrio antes que la fecha 2')
+        else:
+            if(mes_2 < mes_1):
+                print('La fecha 2 ocurrio antes que la fecha 1')
+
