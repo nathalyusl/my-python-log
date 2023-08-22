@@ -270,4 +270,4 @@ else:
     else:
         x1 = (-b + (discriminante**0.5))/(2*a)
         x2 = (-b - (discriminante**0.5))/(2*a)
-        print(f'Hay dos solucio')
+        print(f'Hay dos soluciones reales estas son: x1 = {x1} y x2 = {x2}')
