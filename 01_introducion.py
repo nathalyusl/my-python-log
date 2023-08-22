@@ -229,3 +229,11 @@ else:
         print('Mejorar notas linea floja')
     else:
         print('Necesita tomar prueba de recuperacion o si no no hay posibilidades de aprobar')
+
+#Programa
+
+num_a = int(input('Ingrese un número entero: '))
+num_b = int(input('Ingrese otro número entero: '))
+
+if(num_a%num_b == 0):
+    print(num_b, 'divide exactamente',num_a )
