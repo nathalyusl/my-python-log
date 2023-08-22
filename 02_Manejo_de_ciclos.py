@@ -18,3 +18,9 @@ elif (resp == 'si'):
     print('A mi tambien')
 elif (resp == 'sí'):
     print('A mi tambien')
+
+#--------- Other way -----------#
+
+
+if input('Te gustan los dulces') in ('Sí','Si','sí','si'):
+    print('A mi también')
