@@ -151,3 +151,12 @@ if (num%3==0):
     print(f'El número: {num} es multiplo de 3')
 else:
     print(f'El número: {num} no es multiplo de 3')
+
+#Program to choose lunch menu
+
+opcion = int(input('Choose your menu: 1. Hamburguer 2. Pasta'))
+
+if (opcion == 1):
+    ham = int(input('Enter 1 If you want mett hamburguer or 2 vegetarian hamburger'))
+    if(ham==1):
+        print('Preparing meet hamburguer')
