@@ -237,3 +237,5 @@ num_b = int(input('Ingrese otro número entero: '))
 
 if(num_a%num_b == 0):
     print(num_b, 'divide exactamente',num_a )
+else:
+    print(num_b, 'no divide a', num_a, 'en forma entera')
