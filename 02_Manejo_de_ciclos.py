@@ -14,3 +14,7 @@ if (resp == 'Sí'):
     print('A mi tambien')
 elif (resp == 'Si'):
     print('A mi tambien')
+elif (resp == 'si'):
+    print('A mi tambien')
+elif (resp == 'sí'):
+    print('A mi tambien')
