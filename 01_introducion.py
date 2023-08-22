@@ -222,10 +222,10 @@ nota_1 = float(input('Ingresa la nota 1: '))
 nota_2 = float(input('Ingresa la nota 2: '))
 promedio = ((nota_1 + nota_2)/2)
 
-if (promedio >= 4)
+if (promedio >= 4.0)
     print('Nota para aprobar el módulo')
 else:
-    if(promedio >= 3)
+    if(promedio >= 3.0)
         print('Mejorar notas linea floja')
     else:
         print('Necesita tomar prueba de recuperacion o si no no hay posibilidades de aprobas')
