@@ -228,4 +228,4 @@ else:
     if(promedio >= 3.0):
         print('Mejorar notas linea floja')
     else:
-        print('Necesita tomar prueba de recuperacion o si no no hay posibilidades de aprobas')
+        print('Necesita tomar prueba de recuperacion o si no no hay posibilidades de aprobar')
