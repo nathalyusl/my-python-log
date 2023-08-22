@@ -315,4 +315,12 @@ else:
         else:
             if(mes_2 < mes_1):
                 print('La fecha 2 ocurrio antes que la fecha 1')
+            else:
+                if (dia_1 < dia_2):
+                    print('La fecha 1 ocurrio antes que la fecha 2')
+                else:
+                    if (dia_2 < dia_1):
+                        print('La fecha 2 ocurrio antes que la fecha 1')
+                    else:
+                        print('Fechas iguales')
 
