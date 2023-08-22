@@ -7,3 +7,10 @@ if (resp == 'Sí' or resp == 'Si' or resp == 'si' or resp == 'sí'):
 
 
 #__________ Other way ________#
+
+resp = input('Le gustan los dulces?')
+
+if (resp == 'Sí'):
+    print('A mi tambien')
+elif (resp == 'Si'):
+    print('A mi tambien')
