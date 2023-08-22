@@ -274,11 +274,16 @@ else:
 
 #Programa que verifica si se puede viajar de la isla a A a la B por la condicion de puentes
 
-print('Ingrese la condición de los puentes: ')
+print('Ingrese la condición de los puentes 0 no operativo y 1 operativo: ')
 p1 = int(input('Puente 1:'))
 p2 = int(input('Puente 2:'))
 p3 = int(input('Puente 3:'))
-p4 = int( input('Puente 4:'))
+p4 = int(input('Puente 4:'))
 p5 = int(input('Puente 5:'))
 p6 = int(input('Puente 6:'))
-p7
+p7 = int(input('Puente 7:'))
+
+if p1 == 1 and p4 == 1 and (p6 == 1 or p7 == 1):
+    print('Si se puede viajar entre las islas')
+elif p2 == 1  and (p6 == 1 or p7 == 1):
+    print('Si se puede viajar entre las islas')
