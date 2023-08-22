@@ -179,4 +179,8 @@ edad = int(input('Seleccione su rango de edad'
 if(edad == 1):
     print('Para ingresar necesita estar acompañado de sus padres')
 
-if(edad == 2)
+if(edad == 2):
+    print('Presente su cédula e ingrese.')
+
+if (edad == 3):
+    print('Presente su cedula para un descuento del 20%')
