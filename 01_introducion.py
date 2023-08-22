@@ -252,3 +252,22 @@ if ((num_a - (cociente * num_b)) == 0):
     print(num_b, 'divide exactamente', num_a)
 else:
     print(num_b, 'no divide a', num_a, 'en forma entera')
+
+#Programa que solicita los valores de a,b y c de una ecuacion cuadratica de la forma:
+print('Ingrese los valores a, b y c de una ecuación cuadrática')
+a = int(input('Ingrese a'))
+b = int(input('Ingrese b'))
+c = int(input('Ingrese c'))
+
+discriminante = b**2 -4*a*c
+
+if(discriminante<0):
+    print('No hay soluciones reales')
+else:
+    if(discriminante==0)
+        x1= (-b + (discriminante**0.5))/(2*a)
+        print(f'Hay una solución real y esta es: {x1}')
+    else:
+        x1 = (-b + (discriminante**0.5))/(2*a)
+        x2 = (-b - (discriminante**0.5))/(2*a)
+        print(f'Hay dos solucio')
