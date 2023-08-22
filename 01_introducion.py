@@ -168,3 +168,15 @@ else:
         print('Preparing bologna pasta')
     else:
         print('Preparing alfredo pasta')
+
+#Programa que seleciona rangos de edad solo con "If"
+
+edad = int(input('Seleccione su rango de edad'
+                 '1. Menor de 18 años'
+                 '2. Entre 18 y 60 años'
+                 '3. Mayor a 61 años'))
+
+if(edad == 1):
+    print('Para ingresar necesita estar acompañado de sus padres')
+
+if(edad == 2)
