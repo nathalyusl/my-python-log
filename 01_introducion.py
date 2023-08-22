@@ -210,3 +210,8 @@ if(edad<18):
 else:
     if(edad<25):
         print('Reciba 1 bonus')
+    else:
+        if(edad<30):
+            print('Reciba 2 bonus')
+        else:
+            print('Reciba 3 bonus')
