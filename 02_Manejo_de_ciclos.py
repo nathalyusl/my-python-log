@@ -22,5 +22,5 @@ elif (resp == 'sí'):
 #--------- Other way -----------#
 
 
-if input('Te gustan los dulces') in ('Sí','Si','sí','si'):
+if input('Te gustan los dulces: ') in ('Sí','Si','sí','si'):
     print('A mi también')
