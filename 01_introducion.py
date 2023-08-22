@@ -199,3 +199,14 @@ else:
     if(edad==2):
         print('Presente su cédula e ingrese.')
     else:
+        print('Presente su cédula para un descuento del 20%')
+
+# Programa
+
+edad= int(input('Ingresa tu edad: '))
+
+if(edad<18):
+    print('No permitido')
+else:
+    if(edad<25):
+        print('Reciba 1 bonus')
