@@ -215,3 +215,8 @@ else:
             print('Reciba 2 bonus')
         else:
             print('Reciba 3 bonus')
+
+#Programa utiliza if else y calcula el promedio de 2 notas y te dice si estas en el rango
+
+nota_1 = float(input('Ingresa la nota 1: '))
+nota_2 = float(input('Ingresa la nota 2: '))
