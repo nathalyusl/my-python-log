@@ -21,6 +21,15 @@ elif (resp == 'sí'):
 
 #--------- Other way -----------#
 
-
 if input('Te gustan los dulces: ') in ('Sí','Si','sí','si'):
     print('A mi también')
+
+#--------- PROGRAM ---------#
+# Programa que identifica si un numero es par o impar
+
+num = int(input('Ingrese un número'))
+
+if (num%2 == 0):
+    print('El número es par')
+else:
+    print('El número es impar')
