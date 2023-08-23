@@ -51,3 +51,14 @@ if (num%2 == 0):
 else:
     print(f'El número {num} es impar')
 
+#--------- PROGRAM ---------#
+#Programa que utiliza la función len() para medir un texto
+
+texto = input('Ingrese el twitter: ')
+
+if len(texto) == 0:
+    print('Escribe algo')
+elif (len(texto) > 0 and len(texto)<28):
+    print('ok')
+else:
+    print('texto muy larga')
