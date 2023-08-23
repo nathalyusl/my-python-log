@@ -64,3 +64,4 @@ else:
     print('texto muy larga')
 
 saludo = 'Hola'
+largo = len(saludo)
