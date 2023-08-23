@@ -26,8 +26,17 @@ if input('Te gustan los dulces?: ') in ('Sí','Si','sí','si'):
     print('A mi también')
 
 pregunta = input('Te gustan los dulces?: ')
+
 if pregunta in ('Sí','Si','sí','si'):
     print('A mí tambien')
+
+bm ='No' in ('Sí','Si','sí','si') # esto me devuelve un valor booleano
+
+if 1:
+    print("Es uno")
+
+if 0:                  #el cero es falso
+    print('es cero')
 
 #--------- PROGRAM ---------#
 # Programa que identifica si un numero es par o impar
