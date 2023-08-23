@@ -47,7 +47,7 @@ if 0:                  #el cero es falso
 num = int(input('Ingrese un número'))
 
 if (num%2 == 0):
-    print('El número es par')
+    print(f'El número {num} es par')
 else:
-    print('El número es impar')
+    print(f'El número {num} es impar')
 
