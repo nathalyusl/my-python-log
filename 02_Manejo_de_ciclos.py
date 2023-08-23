@@ -32,6 +32,9 @@ if pregunta in ('Sí','Si','sí','si'):
 
 bm ='No' in ('Sí','Si','sí','si') # esto me devuelve un valor booleano
 
+# in = devuelve true si elemento se encuentra entro del otro elemento
+# not in = devuelve true si el elemento no se encuentra dentro del otro elemento
+
 if 1:
     print("Es uno")
 
@@ -47,3 +50,4 @@ if (num%2 == 0):
     print('El número es par')
 else:
     print('El número es impar')
+
