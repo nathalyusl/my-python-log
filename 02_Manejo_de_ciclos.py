@@ -20,9 +20,14 @@ elif (resp == 'sí'):
     print('A mi tambien')
 
 #--------- Other way -----------#
+#
 
-if input('Te gustan los dulces: ') in ('Sí','Si','sí','si'):
+if input('Te gustan los dulces?: ') in ('Sí','Si','sí','si'):
     print('A mi también')
+
+pregunta = input('Te gustan los dulces?: ')
+if pregunta in ('Sí','Si','sí','si'):
+    print('A mí tambien')
 
 #--------- PROGRAM ---------#
 # Programa que identifica si un numero es par o impar
