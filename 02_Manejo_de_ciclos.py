@@ -66,3 +66,7 @@ else:
 saludo = 'Hola'
 largo = len(saludo)
 print(f'El largo de {saludo} es {largo}')
+
+saludo= input('Ingrese un saludo')
+largo = len(saludo)
+print(f'El largo de {saludo} es {largo}')
