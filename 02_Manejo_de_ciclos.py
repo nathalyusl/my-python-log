@@ -62,3 +62,5 @@ elif (len(texto) > 0 and len(texto)<28):
     print('ok')
 else:
     print('texto muy larga')
+
+saludo = 'Hola'
