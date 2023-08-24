@@ -54,7 +54,7 @@ else:
 #--------- PROGRAM ---------#
 #Programa que utiliza la función len() para medir un texto
 
-texto = input('Ingrese el twitter: ')
+texto = str(input('Ingrese el twitter: '))
 
 if len(texto) == 0:
     print('Escribe algo')
@@ -70,3 +70,12 @@ print(f'El largo de {saludo} es {largo}')
 saludo= input('Ingrese un saludo')
 largo = len(saludo)
 print(f'El largo de {saludo} es {largo}')
+
+#---------Estructuras de control --------------
+
+respues = str(input('Es mujer?'))
+
+if respues == 'si':
+    genero = 'm'
+else:
+    genero = 'h'
