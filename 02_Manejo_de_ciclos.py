@@ -89,4 +89,5 @@ while i<10:
 
 
 while True:
-    print()
+    print('Escribe 0 para salir')
+    respuesta = int(input())
