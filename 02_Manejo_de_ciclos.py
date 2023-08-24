@@ -79,3 +79,14 @@ if respues == 'si':
     genero = 'm'
 else:
     genero = 'h'
+
+# Uso del While
+#Mostrar los números del 1 al 10 por pantalla
+i = 1
+while i<10:
+    print(i)
+    i = i + 1    # Se necesitas esta parte del codigo para que no se vaya al infinito
+
+
+while True:
+    print()
