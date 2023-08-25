@@ -94,7 +94,12 @@ while True:
     if respuesta == 0:
         break
 
-a=1
-while a<15:
+a = 1
+while a < 15:
     print(a)
-    a=a+1
+    a = a + 1
+
+a = 1
+while a <= 15:
+    print(a)
+    a = a + 1
