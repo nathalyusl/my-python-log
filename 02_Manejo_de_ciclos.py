@@ -125,7 +125,7 @@ while num <=10:
     print(num)
     num += 1
 
-i = 5
+i = 0
 sum = 0
 
 while i < 50:
@@ -135,13 +135,15 @@ while i < 50:
 
 print(f'Suma de los números múltiplos de 5 menores a 50 es: {sum}')
 
+#El mismo programa incluyendo
 num = int(input('Has que numero desee que el programa calcule los multiplos del 5'))
-i = 5
+i = 0
 sum = 0
 
 while i < num:
     print(i)
-    i = i+5
     sum = sum + i
+    i = i+5
+
 
 print(f'Suma de los números múltiplos de 5 menores a 50 es: {sum}')
