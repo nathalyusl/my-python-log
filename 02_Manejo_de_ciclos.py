@@ -147,3 +147,11 @@ while i < num:
 
 
 print(f'Suma de los números múltiplos de 5 menores a 50 es: {sum}')
+
+#Mostrar la tabla de multiplicar del número 7
+
+num = 7
+i = 0
+while i < 13:
+    print(f'{num} * {i} = {num*i}')
+    i += 1
