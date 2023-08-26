@@ -155,3 +155,9 @@ i = 0
 while i < 13:
     print(f'{num} * {i} = {num*i}')
     i += 1
+
+num = int(input('Ingrese la tabla a multiplicar'))
+i = 0
+while i < 13:
+    print(f'{num} * {i} = {num*i}')
+    i += 1
