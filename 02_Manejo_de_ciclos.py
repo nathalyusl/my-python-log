@@ -174,3 +174,17 @@ while num_1 <= num_2:
     num_1 = num_1 + 1
 
 print(f'La suma de numeros pares es: {suma}')
+
+#Programa que cuenta cuantos numero pares hay
+
+num_1 = int(input('Ingrese el primer numero: ')) # tome ha este numero como mi contador
+num_2 = int(input('Ingrese el segundo número: '))
+n_n_pares = 0
+
+while num_1 <= num_2:
+    if (num_1 % 2 == 0):
+        print(num_1)
+        n_n_pares = n_n_pares + 1
+    num_1 = num_1 + 1
+
+print(f'La suma de numeros pares es: {suma}')
