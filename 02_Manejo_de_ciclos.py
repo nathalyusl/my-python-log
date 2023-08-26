@@ -103,3 +103,11 @@ a = 1
 while a <= 15:
     print(a)
     a = a + 1
+
+#Programa
+
+fin = 0
+max = 1
+
+while fin == 0:
+    num = int(input())
