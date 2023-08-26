@@ -118,4 +118,4 @@ while fin == 0:
         if num > max:
             max = num
 
-print('')
+print(f'El mayor valor ingresado fue: {max}')
