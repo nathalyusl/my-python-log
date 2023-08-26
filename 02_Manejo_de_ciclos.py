@@ -161,3 +161,16 @@ i = 0
 while i < 13:
     print(f'{num} * {i} = {num*i}')
     i += 1
+
+
+num_1 = int(input('Ingrese el primer numero: ')) # tome ha este numero como mi contador
+num_2 = int(input('Ingrese el segundo número: '))
+suma = 0
+
+while num_1 <= num_2:
+    if (num_1 % 2 == 0):
+        print(num_1)
+        suma = suma + num_1
+    num_1 = num_1 + 1
+
+print(f'La suma de numeros pares es: {suma}')
