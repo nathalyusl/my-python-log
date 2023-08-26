@@ -113,9 +113,26 @@ while fin == 0:
     num = int(input('Ingrese un número. Para terminar, ingrese 0: '))
 
     if num == 0:
-        fin =1
+        fin = 1
     else:
         if num > max:
             max = num
 
 print(f'El mayor valor ingresado fue: {max}')
+
+num = 1
+while num <=10:
+    print(num)
+    num += 1
+
+i = 5
+sum = 0
+
+while i < 50:
+    print(i)
+    i = i+5
+    sum = sum + i
+
+print(f'Suma de los números múltiplos de 5 menores a 50 es: {sum}')
+
+num = int(input('Has que numero desee que el programa calcule los multiplos del 5'))
