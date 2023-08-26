@@ -110,4 +110,12 @@ fin = 0
 max = 1
 
 while fin == 0:
-    num = int(input())
+    num = int(input('Ingrese un número. Para terminar, ingrese 0: '))
+
+    if num == 0:
+        fin =1
+    else:
+        if num > max:
+            max = num
+
+print('')
