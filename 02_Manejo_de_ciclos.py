@@ -187,4 +187,11 @@ while num_1 <= num_2:
         n_n_pares = n_n_pares + 1
     num_1 = num_1 + 1
 
-print(f'La suma de numeros pares es: {suma}')
+print(f'Hay {n_n_pares} pares')
+
+#Programa que aprueba de usuario
+
+edad = type(input('Ingrese su edad'))
+
+while edad == str:
+    edad = input('Ingrese su edad')
