@@ -194,4 +194,4 @@ print(f'Hay {n_n_pares} pares')
 edad = type(input('Ingrese su edad'))
 
 while edad == str:
-    edad = input('Ingrese su edad')
+    edad = input('Esta ingresando letras, ingrese su edad')
