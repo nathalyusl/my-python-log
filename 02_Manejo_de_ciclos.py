@@ -193,5 +193,21 @@ print(f'Hay {n_n_pares} pares')
 
 edad = type(input('Ingrese su edad'))
 
+if edad == str:
+    while edad == int:
+        edad = type(int('Esta ingresando letras, ingrese su edad'))
+
+
+edad = type(input('Ingrese su edad'))
 while edad == str:
-    edad = input('Esta ingresando letras, ingrese su edad')
+    print('Error')
+    edad = type(input('Ingrese su edad'))
+
+
+
+while True:
+    try:
+        edad = int(input('Ingrese su edad'))
+        print('número')
+    except:
+        ValueError
