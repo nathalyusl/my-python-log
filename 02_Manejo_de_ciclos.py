@@ -209,5 +209,6 @@ while True:
     try:
         edad = int(input('Ingrese su edad'))
         print('número')
+        break
     except:
         ValueError
