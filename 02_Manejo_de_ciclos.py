@@ -212,3 +212,17 @@ while True:
         break
     except:
         ValueError
+
+
+## PRUEBA ESTA MAL
+
+edad = input('Ingrese su edad')
+while type(edad) == str:
+    if type((int(edad))) == int:
+        break
+    elif type(edad) == str:
+        edad = input('Ingrese su edad')
+
+edad=input('Ingrese su edad')
+print(type(edad))
+int
