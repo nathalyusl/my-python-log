@@ -11,5 +11,6 @@ while(j<20):
     print(j)
 
 h=1
-while(h=1):
-    print(1)
+while(h>=1):
+    h = h + 1
+    print(h)
