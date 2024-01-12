@@ -9,3 +9,7 @@ j=8
 while(j<20):
     j+=1
     print(j)
+
+h=1
+while(h=1):
+    print(1)
