@@ -43,6 +43,13 @@ print(type(text))
 shift = 3
 print(type(shift))
 
-text = 'Hello World'
+# Caesar cipher. Specifically, you will take each letter in your message, find its position in the alphabet, take the letter located after
+# 3 positions, and replace the original letter with the new letter.
+#Start by finding the position of the first letter in the string. One way is to use the built-in find() function:
+text = 'hello world'
 shift = 3
 alphabet = "abcdefghijklmnopqrstuvwxyz"
+print(alphabet.find('a')) #imprime la posicion del caracter
+
+index = alphabet.find(text[0])
+print(index)
