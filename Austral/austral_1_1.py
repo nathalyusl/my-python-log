@@ -46,10 +46,25 @@ print(type(shift))
 # Caesar cipher. Specifically, you will take each letter in your message, find its position in the alphabet, take the letter located after
 # 3 positions, and replace the original letter with the new letter.
 #Start by finding the position of the first letter in the string. One way is to use the built-in find() function:
-text = 'hello world'
+text = 'Hello World'
 shift = 3
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 print(alphabet.find('a')) #imprime la posicion del caracter
 
 index = alphabet.find(text[0])
+print(index)
+
+#find() returns the index of the matching character inside the string. If the character is not found, it returns -1. As you can see, the first
+# character in text, uppercase "H", is not found, since alphabet contains only lowercase letters.
+#You can transform a string into its lowercase equivalent with the lower() function. Add another print() call to print text.lower() and see the output.
+
+text = 'Hello World'
+shift = 3
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+index = alphabet.find(text[0])
+print(index)
+print(text.lower())
+
+#Then
+index = alphabet.find(text[0].lower())
 print(index)
