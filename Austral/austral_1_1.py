@@ -68,3 +68,16 @@ print(text.lower())
 #Then
 index = alphabet.find(text[0].lower())
 print(index)
+
+#USE FOR
+
+# for i in text:
+# for is the keyword denoting the loop type. i is a variable that sequentially takes the value of the elements in text.
+# The statement ends with a colon, :.
+
+text = 'Hello World'
+shift = 3
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+i = 0
+for i in text:
+    print(i)
