@@ -21,3 +21,7 @@ z = y
 text = 'Hello World'
 r = text[6]
 print(r)
+
+
+text = 'Hello World'
+print(text[6])
