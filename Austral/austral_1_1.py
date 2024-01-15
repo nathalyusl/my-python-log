@@ -25,3 +25,10 @@ print(r)
 
 text = 'Hello World'
 print(text[6])
+
+# You can also access string characters starting from the end of the string. The last character has an index of -1, the second to last -2 and so on.
+
+text = 'Hello World'
+print(text[-1])
+
+# You can access the number of characters in a string with the built-in len() function.
