@@ -42,3 +42,7 @@ print(type(text))
 
 shift = 3
 print(type(shift))
+
+text = 'Hello World'
+shift = 3
+alphabet = "abcdefghijklmnopqrstuvwxyz"
