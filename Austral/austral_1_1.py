@@ -32,5 +32,10 @@ text = 'Hello World'
 print(text[-1])
 
 # You can access the number of characters in a string with the built-in len() function.
-text= 'Hello World'
+text = 'Hello World'
 print(len(text))
+
+#Useful built-in function is type(), which returns the data type of a variable. Modify your print call to print the data type of text.
+
+text = 'Hello World'
+print(type(text))
