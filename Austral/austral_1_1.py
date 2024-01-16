@@ -81,3 +81,6 @@ alphabet = 'abcdefghijklmnopqrstuvwxyz'
 i = 0
 for i in text:
     print(i)
+
+nombre = "new york"
+print(nombre[-2])
