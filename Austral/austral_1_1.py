@@ -84,3 +84,11 @@ for i in text:
 
 nombre = "new york"
 print(nombre[-2])
+
+print(type(nombre))
+
+print(nombre.find('w'))
+
+
+for p in nombre:
+    print(p)
