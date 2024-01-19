@@ -92,3 +92,6 @@ print(nombre.find('w'))
 
 for p in nombre:
     print(p)
+
+num = 123
+
