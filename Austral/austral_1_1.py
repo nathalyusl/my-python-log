@@ -95,3 +95,5 @@ for p in nombre:
 
 num = 123
 
+for u in num:
+    print(u)
