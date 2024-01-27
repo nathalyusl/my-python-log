@@ -97,3 +97,8 @@ num = 123
 
 for u in num:
     print(u)
+
+text = 'Phoebe'
+
+for char in text:
+    print(char)
