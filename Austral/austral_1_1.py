@@ -102,3 +102,12 @@ text = 'Phoebe'
 
 for char in text:
     print(char)
+
+# Ejercicio usando for y find
+
+text = 'Hello World'
+shift = 3
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
+for char in text:
+    index = alphabet.find(char)
