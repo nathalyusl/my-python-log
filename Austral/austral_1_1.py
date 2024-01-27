@@ -111,3 +111,4 @@ alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
 for char in text:
     index = alphabet.find(char)
+    print(char, index)
