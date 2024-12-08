@@ -26,3 +26,7 @@ if grade >=90:
     print("Excellent")
 elif grade >= 80:
     print("Very good")
+elif grade >= 70:
+    print("Good")
+else:
+    print("Needs improvement")
