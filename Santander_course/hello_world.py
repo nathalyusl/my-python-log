@@ -20,9 +20,9 @@ else:
 
 # IF-ELIF-ELSE
 
-grade = input(int("Grade: "))
+grade = int(input("Grade: "))
 
-if grade >=90:
+if grade >= 90:
     print("Excellent")
 elif grade >= 80:
     print("Very good")
