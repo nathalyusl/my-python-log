@@ -328,4 +328,7 @@ edad = 30 # int
 nombre = "Pedro" #str
 altura = 1.75 #float
 
+#Diccionarios = organizar datos complejos, almacena pares de clave-valor
+
+persona = {"nommbre":"Pedro", "edad":30, "altura":1.75}
 
