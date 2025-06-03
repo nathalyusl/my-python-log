@@ -332,3 +332,7 @@ altura = 1.75 #float
 
 persona = {"nommbre":"Pedro", "edad":30, "altura":1.75}
 
+#Listas = colecciones ordenadas de elementos 
+
+temperaturas=[30.8, 25.6, 12.3, 28, 6.5]
+
