@@ -323,5 +323,9 @@ else:
                         print('La fecha 2 ocurrio antes que la fecha 1')
                     else:
                         print('Fechas iguales')
+# Asignación de variables 
+edad = 30 # int
+nombre = "Pedro" #str
+altura = 1.75 #float
 
 
