@@ -336,3 +336,22 @@ persona = {"nommbre":"Pedro", "edad":30, "altura":1.75}
 
 temperaturas=[30.8, 25.6, 12.3, 28, 6.5]
 
+#Estructuras de Control de Flujo 
+# IF : Verifica si la condicion es verdadera
+
+ventas = 1200
+objetivo = 1000
+
+if ventas >= objetivo:
+    print("Felicidades!, alcanzaste el objetivo")
+
+
+
+
+
+
+
+
+
+
+
