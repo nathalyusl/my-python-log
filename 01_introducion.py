@@ -345,6 +345,18 @@ objetivo = 1000
 if ventas >= objetivo:
     print("Felicidades!, alcanzaste el objetivo")
 
+# Else : se encarga de ejecutar la linea de codigo si el IF es falos
+# Elif : Permite evaluar mas de un escenario.
+
+if ventas >= obejtivo:
+    print("Felicidades!, alcanzaste el objetivo")
+elif ventas >= 900:
+    print("Estuviste cerca del objetivo")
+else
+    print("No alcances el objetivo, no te rindas!")
+
+
+
 
 
 
