@@ -355,6 +355,20 @@ elif ventas >= 900:
 else
     print("No alcances el objetivo, no te rindas!")
 
+# Control de Flujo 
+# Bucle FOR : Es un asitente que repite tarea especificas. Recorre elementos de una lista, conjunto, cadena de texto.
+
+productos = ["tablet", "smartphone", "laptop"]
+
+for producto in productos:
+    print(f'Se vendió: {producto}')
+
+
+
+
+
+
+
 
 
 
