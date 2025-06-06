@@ -401,7 +401,12 @@ ventas = {'Laptos':10, 'Tablets': 15, 'Smartphones':20}
 for producto, cantidad in ventas.items():
     print(f'{producto}:{cantidad} unidades vendidas')
 
-
+# WHILE: Repite el bloque de codigo mientras la condición sea verdadera.
+contador = 1 
+while contador <= 5:
+    print{f'Estes es el intento numero {contador}'}
+    contador +=1
+    
 
 
 
