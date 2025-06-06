@@ -363,10 +363,16 @@ productos = ["tablet", "smartphone", "laptop"]
 for producto in productos:
     print(f'Se vendió: {producto}')
 
+# RANGE: Genera una secuencia de numeros que puedes usar para repetir un bloque de codigo un numero especifico de veces.
+   # NOTA: range del 1 al 6 solo imprimirá 5 dias se toma en cuenta el 1 pero no el último número.
+for dia in range(1,6): 
+    print(f'Registrando ventas del dia {dia}')
 
+for dia in range(5):
+    print(f'Día número {dia}')
 
-
-
+for numero in range(0,10, 2):    (INICIO, FIN, PASO)
+    print(numero)
 
 
 
