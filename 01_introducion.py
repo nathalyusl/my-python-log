@@ -375,7 +375,17 @@ for numero in range(0,10, 2):    (INICIO, FIN, PASO)
     print(numero)
 
 
+# Variante For-else: Permite encontrar elementos y actuar si no esta el elemento
 
+numeros = [1,2,3,4,5,6]
+
+for num in numeros:
+    if num == 4:
+        print("Número encontrado")
+        break
+else:
+    print("El numero no se encontro")
+        
 
 
 
