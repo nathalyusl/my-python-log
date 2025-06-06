@@ -330,7 +330,7 @@ altura = 1.75 #float
 
 #Diccionarios = organizar datos complejos, almacena pares de clave-valor
 
-persona = {"nommbre":"Pedro", "edad":30, "altura":1.75}
+persona = {"nombre":"Pedro", "edad":30, "altura":1.75}
 
 #Listas = colecciones ordenadas de elementos 
 
@@ -387,6 +387,19 @@ else:
     print("El numero no se encontro")
         
 
+#Ejemplo
+
+nombre = "Phython"
+
+for letra in nombre:
+    print(letra)
+
+#Ejemplo de uso de For en diccionrios 
+
+ventas = {'Laptos':10, 'Tablets': 15, 'Smartphones':20}
+
+for producto, cantidad in ventas.items():
+    print(f'{producto}:{cantidad} unidades vendidas')
 
 
 
