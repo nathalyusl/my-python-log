@@ -406,7 +406,16 @@ contador = 1
 while contador <= 5:
     print{f'Estes es el intento numero {contador}'}
     contador +=1
-    
+# Uso del While: break
+
+numeros = [1,3,5,7,9]
+buscando = 5
+i=0 (posicion y tambien contador)
+while i <= len(numeros):
+    if numeros[i] == buscando:
+        print("El numero se ha encontrado")
+    break
+    i += 1
 
 
 
