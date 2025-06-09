@@ -417,7 +417,14 @@ while i <= len(numeros):
     break
     i += 1
 
+#While con else
 
+contador = 1
+while contador <= 3:
+    print(f"Intento numero {contador}")
+    contador +=1
+else:
+    print("Se completaron los intentos")
 
 
 
