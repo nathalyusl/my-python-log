@@ -10,7 +10,7 @@ print('')
 
 import pandas as pd
 
-df = pd.read_csv('Data_frame/athlete_events.csv')
+df = pd.read_csv('../Data_frame/athlete_events.csv')
 
 # Solicitud de 2 deportes al usuario y validacion
 sport = data_interesante['Sport'].unique()

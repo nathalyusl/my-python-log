@@ -1,10 +1,10 @@
 import pandas as pd
 
-df = pd.read_csv('Data_frame/simple_data.csv')
+df = pd.read_csv('../Data_frame/simple_data.csv')
 
 print(df)
 
-dt = pd.read_csv('Data_frame/african_crises.csv')
+dt = pd.read_csv('../Data_frame/african_crises.csv')
 
 #Estadisticas
 print(df.describe())
