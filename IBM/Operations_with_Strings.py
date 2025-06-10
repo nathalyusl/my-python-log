@@ -62,7 +62,17 @@ print(b)  #Resultado: THRILLER IS THE SIXTH STUDIO ALBUM
 b= a.lower()
 print(b)   # Resultado = thriller is the sixth studio album
 
+#_______________USO DE REPLACE _____________
 
+a= "Michael Jackson is the best"
+b= a.replace("Michael","Janet")
+print(b)
+
+#___________USO DEL FIND_________________
+
+name = "Michael Jackson"
+print(name.find("el"))   #Resultado= 5 la pocision del primer indice
+print(name.find("1"))   #Resultado= -1 la cadena no fue encontrada
 
 
 
