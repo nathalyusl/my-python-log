@@ -91,7 +91,13 @@ x = 10
 y = 20
 print(f"The sum of x and y is {x + y}")
 
+#_____________Cadena Cruda "r" _______#
 
+regular_string = "C:\new_folder\file.txt"
+print(regular_string)
+
+regular_string = r"C:\new_folder\file.txt"
+print(regular_string)
 
 
 
