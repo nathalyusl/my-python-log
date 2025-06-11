@@ -74,6 +74,15 @@ name = "Michael Jackson"
 print(name.find("el"))   #Resultado= 5 la pocision del primer indice
 print(name.find("1"))   #Resultado= -1 la cadena no fue encontrada
 
+#__________________FORMATER CADENA EN PYTHON__________________________
+
+#------ % OPERADOR___________#Forma mas antigua de formatear cadenas
+
+name = "Jonathan"
+age = 30
+
+
+
 
 
 
