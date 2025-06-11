@@ -76,12 +76,20 @@ print(name.find("1"))   #Resultado= -1 la cadena no fue encontrada
 
 #__________________FORMATER CADENA EN PYTHON__________________________
 
-#------ % OPERADOR___________#Forma mas antigua de formatear cadenas
+#------ % OPERADOR ___________#Forma mas antigua de formatear cadenas
 
 name = "Jonathan"
 age = 30
+print("My name is %s and I am %d years old." %(name,age))
 
+# %s ----> Este es un marcador de posicion para una cadena.
+# %d ----> Este es un marcador de posicion para un entero.
 
+# ______ F-strings _________#
+
+x = 10 
+y = 20
+print(f"The sum of x and y is {x + y}")
 
 
 
