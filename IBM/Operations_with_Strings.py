@@ -100,8 +100,10 @@ regular_string = r"C:\new_folder\file.txt"
 print(regular_string)
 
 
+#____________LISTAS _________________#
 
-
+clientes: ["Ana", "Pedro", "Lucia"] #Pensar como una forma de organizar datos relacionados.
+ventas: [200,300,450]
 
 
 
