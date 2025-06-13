@@ -105,7 +105,15 @@ print(regular_string)
 clientes: ["Ana", "Pedro", "Lucia"] #Pensar como una forma de organizar datos relacionados.
 ventas: [200,300,450]
 
+# Cada elemento en la lista tiene una posición, llamada índice, el índice comienza en cero.
 
+# Imprimir el primer elemento de la lista clientes:
+
+print(clientes[0]) #Resultado = Ana
+
+# Imprimir el ultimo elemento de la lista aqui hay un truco el -1 
+
+print(clientes[-1]) #Resultado = Lucia 
 
 
 
