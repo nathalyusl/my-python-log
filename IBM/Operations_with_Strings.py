@@ -102,8 +102,8 @@ print(regular_string)
 
 #____________LISTAS _________________#
 
-clientes: ["Ana", "Pedro", "Lucia"] #Pensar como una forma de organizar datos relacionados.
-ventas: [200,300,450]
+clientes: ["Ana", "Pedro", "Lucia", "Manila"] #Pensar como una forma de organizar datos relacionados.
+ventas: [200,300,450,250]
 
 # Cada elemento en la lista tiene una posición, llamada índice, el índice comienza en cero.
 
@@ -115,8 +115,9 @@ print(clientes[0]) #Resultado = Ana
 
 print(clientes[-1]) #Resultado = Lucia 
 
+#Imprimir cada dos elementos 
 
-
+print(clientes[::2])
 
 
 
