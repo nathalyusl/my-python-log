@@ -66,7 +66,10 @@ print(b)   # Resultado = thriller is the sixth studio album
 
 a= "Michael Jackson is the best"
 b= a.replace("Michael","Janet")
+c= a.replace("Jackson","Ambar")
 print(b)
+print(c)
+
 
 #___________USO DEL FIND_________________
 
