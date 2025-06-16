@@ -122,17 +122,9 @@ print(clientes[-1]) #Resultado = Lucia
 
 print(clientes[::2])
 
+#Imprimir inicio, fin, salto
 
-
-
-
-
-
-
-
-
-
-
+print(ventas[1:3:3])
 
 
 
