@@ -80,7 +80,7 @@ name = "Michael Jackson"
 print(name.find("el"))   #Resultado= 5 la pocision del primer indice
 print(name.find("1"))   #Resultado= -1 la cadena no fue encontrada
 
-#__________________FORMATER CADENA EN PYTHON__________________________
+#__________________FORMATAER CADENA EN PYTHON__________________________
 
 #------ % OPERADOR ___________#Forma mas antigua de formatear cadenas
 
@@ -104,6 +104,14 @@ print(regular_string)
 
 regular_string = r"C:\new_folder\file.txt"
 print(regular_string)
+
+#____________________________ USO DE SPLIT _________________________#
+
+# Convierte una cadena en lista de cadena.
+# Si no hay un delimitador utiliza los espacios.
+# maxsplit permite controlar cuantas divisones se realizan
+
+
 
 
 #____________LISTAS _________________#
