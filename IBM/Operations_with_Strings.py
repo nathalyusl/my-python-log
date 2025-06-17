@@ -70,6 +70,9 @@ c= a.replace("Jackson","Ambar")
 print(b)
 print(c)
 
+album = "The BodyGuard is the best album"
+ch_name = album.replace("BodyGuard","Equatorial")
+print(ch_name)
 
 #___________USO DEL FIND_________________
 
