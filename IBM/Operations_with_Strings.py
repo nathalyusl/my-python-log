@@ -107,12 +107,15 @@ print(regular_string)
 
 #____________________________ USO DE SPLIT _________________________#
 
-# Convierte una cadena en lista de cadena.
+# Convierte una cadena en una lista de subcadenas.
 # Si no hay un delimitador utiliza los espacios.
 # maxsplit permite controlar cuantas divisones se realizan
 
+#_____ SPLIT: DIVIDIR POR ESPACIO (Delimitador por defecto)_________#
 
-
+texto = "Hola mundo en Python"
+resultado = texto.split()
+print(resultado)    # ['Hola','mundo','en','Phyton']
 
 #____________LISTAS _________________#
 
