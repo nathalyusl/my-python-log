@@ -117,6 +117,15 @@ texto = "Hola mundo en Python"
 resultado = texto.split()
 print(resultado)    # ['Hola','mundo','en','Phyton']
 
+
+
+#_____ SPLIT: DIVIDIR POR UN DELIMITADOR ESPECIFICO _____________#
+
+texto = "manzana,banana,cereza"
+resultado = texto.split(",")
+print(resultado)       # ["mazana","banana","cereza"]
+
+
 #____________LISTAS _________________#
 
 clientes: ["Ana", "Pedro", "Lucia", "Manila"] #Pensar como una forma de organizar datos relacionados.
