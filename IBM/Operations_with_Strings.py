@@ -117,7 +117,9 @@ texto = "Hola mundo en Python"
 resultado = texto.split()
 print(resultado)    # ['Hola','mundo','en','Phyton']
 
-
+nombre_com = "Julieta Margarita Perez Manila"
+nom_dividido = nombre_com.split()
+print(nom_dividido)      #['Julieta','Margarita','Perez',Manila']
 
 #_____ SPLIT: DIVIDIR POR UN DELIMITADOR ESPECIFICO _____________#
 
