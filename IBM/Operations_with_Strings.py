@@ -133,6 +133,11 @@ texto = "uno dos tres cuatro cinco"
 resultado = texto.split(" ",2)
 print(resultado)   # ['uno','dos','tres cuatro cinco']
 
+    #_____ SPLIT: DIVIDIR POR SALTO DE LÍNEA ________#
+
+texto = "primera línea\nsegunda línea\ntercera línea"
+resultado = texto.split("\n")
+print(resultado)   # ['primera línea', 'segunda línea', 'tercera línea']
 
 
 
