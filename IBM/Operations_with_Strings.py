@@ -88,8 +88,8 @@ name = "Jonathan"
 age = 30
 print("My name is %s and I am %d years old." %(name,age))
 
-# %s ----> Este es un marcador de posicion para una cadena.
-# %d ----> Este es un marcador de posicion para un entero.
+# %s ----> Este es un marcador de posición para una cadena.
+# %d ----> Este es un marcador de posición para un entero.
 
 # ______ F-strings _________#
 
@@ -138,6 +138,13 @@ print(resultado)   # ['uno','dos','tres cuatro cinco']
 texto = "primera línea\nsegunda línea\ntercera línea"
 resultado = texto.split("\n")
 print(resultado)   # ['primera línea', 'segunda línea', 'tercera línea']
+
+   #_____ SPLIT: DIVIDIR EN BASE A UN CONJUNTO DE DELIMITADORES _____#
+
+import re      # se esta importando regular expression, permite trabajar con texto.
+texto = "manzana;banana,pera"
+resultado = re.split('[,;]',texto)
+print(resultado) # ['manzana', 'banana', 'pera']
 
 
 
