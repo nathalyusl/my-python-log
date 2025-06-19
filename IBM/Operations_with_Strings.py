@@ -146,6 +146,20 @@ texto = "manzana;banana,pera"
 resultado = re.split('[,;]',texto)
 print(resultado) # ['manzana', 'banana', 'pera']
 
+#_______________________ RegEX ___________________________#
+   # Is a tool for matching and handling strings
+   # Working with regular expressions "search", "split","findall", "sub"
+
+   # ___________ Search _________________#
+
+import re
+texto = "The BodyGuard is the best album"
+
+# Define the pattern to search for
+pattern = r"Body"
+
+# Use the search() function to search for the pattern in the string
+result = re.search(pattern,texto)
 
 
 
