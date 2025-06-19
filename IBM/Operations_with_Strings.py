@@ -110,8 +110,8 @@ print(regular_string)
 # Convierte una cadena en una lista de subcadenas.
 # Si no hay un delimitador utiliza los espacios.
 # maxsplit permite controlar cuantas divisones se realizan
-
-#_____ SPLIT: DIVIDIR POR ESPACIO (Delimitador por defecto)_________#
+  
+     #_____ SPLIT: DIVIDIR POR ESPACIO (Delimitador por defecto)_________#
 
 texto = "Hola mundo en Python"
 resultado = texto.split()
@@ -121,12 +121,17 @@ nombre_com = "Julieta Margarita Perez Manila"
 nom_dividido = nombre_com.split()
 print(nom_dividido)      #['Julieta','Margarita','Perez',Manila']
 
-#_____ SPLIT: DIVIDIR POR UN DELIMITADOR ESPECIFICO _____________#
+     #_____ SPLIT: DIVIDIR POR UN DELIMITADOR ESPECIFICO _____________#
 
 texto = "manzana,banana,cereza"
 resultado = texto.split(",")
 print(resultado)       # ["mazana","banana","cereza"]
 
+    #_____ SPLIT:LIMITAR EL NUMERO DE DIVISIONES _______# 
+
+texto = "uno dos tres cuatro cinco"
+resultado = texto.split(" ",2)
+print(resultado)   # ['uno','dos','tres cuatro cinco']
 
 #____________LISTAS _________________#
 
