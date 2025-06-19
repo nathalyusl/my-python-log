@@ -161,7 +161,15 @@ pattern = r"Body"
 # Use the search() function to search for the pattern in the string
 result = re.search(pattern,texto)
 
+#Check if a match was found
+if result:
+    print("Match found")
+else:
+    print("No Match found")
 
+# Print
+print(result)  # <re.Match object; span=(4, 8), match='Body'>
+               # Es un objeto match
 
 
 
