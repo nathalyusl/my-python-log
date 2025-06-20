@@ -173,19 +173,33 @@ print(result)  # <re.Match object; span=(4, 8), match='Body'>
 
       #_____Several special sequences in RegEx _____#
 
-#     Special Sequence               Meaning                                 Example
+#     Special Sequence               Meaning                                        Example
 
-#           \d           Matches any digit character (0-9)             "123"   matches  "\d\d\d"
+#           \d           Matches any digit character (0-9)                "123"         matches  "\d\d\d"
 
-#           \D           Matches any non-digit character               "hello"   matches "\D\D\D\D\D"
+#           \D           Matches any non-digit character                  "hello"       matches "\D\D\D\D\D"
 
-#           \w           Matches any word character                    "hello_word" matches "\w\w\w\w\w\w\w\w\w\w"
+#           \w           Matches any word character                       "hello_word"  matches "\w\w\w\w\w\w\w\w\w\w"
 #                        (a-z, A-Z, 0-9 and _ )
 
-#           \W           Matches any non-word character                "@#$%"   matches "\W\W\W\W"
+#           \W           Matches any non-word character                   "@#$%"        matches "\W\W\W\W"
 
-#           \s           Matches any whitespace character              "hello word" matches "\w\w\w\w\w\s\w\w\w\w"
-#                        (space, tab, newline, etc.)
+#           \s           Matches any whitespace character                 "hello word"  matches "\w\w\w\w\w\s\w\w\w\w"
+#                        (space, "\t" tab, "\n" newline, etc.)
+
+#           \S           Matches any except whitespace or tab             "hello_word" matches "\S\S\S\S\S\S\S\S\S\S"
+
+#           \b           Word boundary
+#                        Coincide donde empieza o termina una palabra.    "cat"        matches "\bcat\b" = busca cat este sola o separada por espacios, puntuación o inicios/finales de línea
+#                                                                                               \bcat  = busca cat que empiece una palabra
+#                                                                                               cat\b  = busca cat que termine una palabra
+
+#           \B           Not a word Boundary
+#                        Coincide donde no hay límite de palabra. Está    "bobcat"     marches "\Bcat\B" = busca que cat este medio de una palabra.
+#                        dentro de una palabra.                                                "cat\B" = coincide con cat cuando está seguida por letra/números.
+#                                                                                              "\Bcat" = coincide cuando no está al inicio de una palabra, debe haber letras antes.
+
+
 
 
 
