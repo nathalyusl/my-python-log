@@ -201,15 +201,16 @@ print(result)  # <re.Match object; span=(4, 8), match='Body'>
 
 #__________ Ejercicio __________#
 
-pattern = r"\d\d\d\d\d\d\d\d\d\d"
+pattern = r"\d\d\d\d\d\d\d\d\d\d"     #este patron está buscando exactamente 10 dígitos
 text = "My Phone number is 1234567890"
-match = re.search(pattern,text)
+match = re.search(pattern,text)            #Busca en el texto una coincidencia con el patrón
 if match:
     print("Match found")
 else:
     print("No Match found")
 
-print(match)
+print(match)                  #<re.Match object; span=(19, 29), match='1234567890'>
+print(match.group())         # Mostrará el número que encontró "1234567890"
 
 
 
