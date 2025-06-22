@@ -199,6 +199,11 @@ print(result)  # <re.Match object; span=(4, 8), match='Body'>
 #                        dentro de una palabra.                                                "cat\B" = coincide con cat cuando está seguida por letra/números.
 #                                                                                              "\Bcat" = coincide cuando no está al inicio de una palabra, debe haber letras antes.
 
+#__________ Ejercicio __________#
+
+pattern = r"\d\d\d\d\d\d\d\d\d\d"
+text = "My Phone number is 1234567890"
+match =
 
 
 
