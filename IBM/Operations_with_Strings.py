@@ -213,8 +213,9 @@ print(match)                  #<re.Match object; span=(19, 29), match='123456789
 print(match.group())         # Mostrará el número que encontró "1234567890"
 
 
-
-
+pattern = r"\D\D\D\D\D"
+text = "hello"
+match = re.search(pattern,texto)
 
 
 
