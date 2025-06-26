@@ -232,6 +232,20 @@ texto = "Tengo 2 manzanas y 3 plátanos"
 resultado = re.findall(r'\d+', texto)    #Busca todos los números de la cadena 
 print(resultado)   # ['2','3']
 
+# \d+ busca una o más cifras consecutivas y findall() devuelve todas las coincidencias en forma de lista. 
+
+#___________________ Ejemplo 2: Remplazar texto con re.sub() _______________________#
+
+import re 
+
+texto = "Hola, mi número es 555-1234"
+resultado = re.sub(r'\d{3}-\d{4}', 'XXX-XXXX', texto)  # Reemplaza el número de texto original por XXX-XXXX
+print(resultado)   # Hola, mi número es XXX-XXXX
+
+# \d{3}-\d{4} busca un patron específico de un número de teléfono, y sub() lo remplaza con el texto proporcionado.
+
+
+
 
 
 
