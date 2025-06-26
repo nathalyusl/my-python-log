@@ -224,3 +224,31 @@ else:
 print(match)
 print(match.group())
 
+#_______________ Ejemplo 1: Buscar todas las ocurrencias de un patrón ______________#
+
+import re
+
+texto = "Tengo 2 manzanas y 3 plátanos"
+resultado = re.findall(r'\d+', texto)    #Busca todos los números de la cadena 
+print(resultado)   # ['2','3']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
