@@ -209,7 +209,7 @@ if match:
 else:
     print("No Match found")
 
-print(match)                  #<re.Match object; span=(19, 29), match='1234567890'>
+print(match)                  #<re.Match object; span=(19, 29), match='1234567890'> indica la linea en donde se encontro también
 print(match.group())         # Mostrará el número que encontró "1234567890"
 
 
@@ -222,7 +222,7 @@ else:
   print("No Match found")
 
 print(match)
-print(match.group())
+print(match.group())  # Mostrará el número que encontró
 
 #_______________ Ejemplo 1: Buscar todas las ocurrencias de un patrón ______________#
 
@@ -255,9 +255,16 @@ print(resultado)
 import re 
 
 texto = "abc123"
-resultado = re.match(r'\w+\d+', texto)
+resultado = re.match(r'\w+\d+', texto) # Verifica si el texto empieza con letras y termina en números
 
+if resultado:
+  print("Coindecia encontrada", reultado.group())
+else:
+  print("No hay coincidencia")
 
+# \w+ busca uno o más caracteres alfanuméricos y el _ , y \d+ busca uno o más dígitos.
+# match() devuelve una coincidencia si el patrón esta al principio de la cadena. 
+# match() Intenta coicidir el patrón desde el inicio si no lo encuentra al principio imprime "none"
 
 
 
