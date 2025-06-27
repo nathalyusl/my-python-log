@@ -244,8 +244,11 @@ print(resultado)   # Hola, mi número es XXX-XXXX
 
 # \d{3}-\d{4} busca un patron específico de un número de teléfono, y sub() lo remplaza con el texto proporcionado.
 
+import re
 
-
+texto = "Mi contraseña es 98-7654" 
+resultado = re.sub(r'\d{2}-\d{4}', '**-****', texto)
+print(resultado)
 
 
 
