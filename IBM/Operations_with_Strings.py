@@ -268,8 +268,17 @@ else:
 
 
 
+# re.match()             Usarlo para validar formatos desde el inicio (fechas, códigos encabezados)
+#                        Verificar si un texto comienza con una palabra clave
+#                        Devuelve match o none
 
+# re.search()            Usarlo cuando se quiera encotrar la primera coincidencia en cualquier parte del texto.
+#                        Devuelve match o none   
 
+# re.findall()           Obtener todas las coincidencias de un patron. 
+#                        Devuelve Lista de strings 
+#                        Contar o listar todas las apariciones de un pátron
+#                        Extraer múltiples datos (correos, fechas, números, etc)
 
 
 
