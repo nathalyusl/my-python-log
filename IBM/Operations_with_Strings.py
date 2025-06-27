@@ -250,7 +250,12 @@ texto = "Mi contraseña es 98-7654"
 resultado = re.sub(r'\d{2}-\d{4}', '**-****', texto)
 print(resultado)
 
+#_________________ Ejemplo 3: Comprobar si una cadena sigue un patrón _______________#
 
+import re 
+
+texto = "abc123"
+resultado = re.match(r'\w+\d+', texto)
 
 
 
