@@ -281,6 +281,13 @@ else:
 #                        Extraer múltiples datos (correos, fechas, números, etc)
 
 
+#___________________ Ejercicio combinado ________________________#
+
+import re 
+
+texto = "Cliente: Mario Casas, Email: mariocasas@gmail.com, Tel: 555-1234. Cliente: Ana Lopez, Email: ana_lopez@yahoo.com, Tel:555-5678"
+
+# Empieza el texto con "Cliente"
 
 
 
