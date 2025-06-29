@@ -315,7 +315,10 @@ texto = "Cliente: Mario Casas, Email: mariocasas@gmail.com, Tel: 555-1234. Clien
   else:
     print("Not match")
 
+#_______ re.findall ______# Encontrar todo los emails
 
+resultado =  re.findall(r"\S+@\S+", texto)
+print("uso de findall: ", resultado)
 
 
 
