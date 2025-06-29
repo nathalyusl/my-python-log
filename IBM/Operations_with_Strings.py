@@ -287,20 +287,33 @@ import re
 
 texto = "Cliente: Mario Casas, Email: mariocasas@gmail.com, Tel: 555-1234. Cliente: Ana Lopez, Email: ana_lopez@yahoo.com, Tel:555-5678"
 
-# Saber si el texto empieza con "Cliente":
+#________ re.match ________# Saber si el texto empieza con "Cliente":
 
-resultado = re.match("Cliente", texto)
+  resultado = re.match("Cliente", texto)
+  
+  # Forma ternararia de escribir el resultado
+  print("match:", resultado.gruop() if resultado else "No match")
+  
+  # Forma larga de esribrilo
+  
+  if resultado:
+    print("match:", resultado.group())
+  else:
+    print("match:","Not match")
 
-# Forma ternararia de escribir el resultado
-print("match:", resultado.gruop() if resulado else "No match")
+#________ re.search ______# Busca en todo el texto y devuelve en este caso el e-mail 
 
-# Forma larga de esribrilo
+  resultado =  re.search(r"\S+@\S+", texto)
 
-if resultado:
-  print("match:", resultado.group())
-else:
-  print("match:","Not match")
+  # Forma ternararia de escribir el resultado
+  print("match:", resultado.group() if resultado else "No match")
+  
+  # Forma larga de esribrilo
 
+  if resultado:
+    print("match:", resultado.group())
+  else:
+    print("Not match")
 
 
 
