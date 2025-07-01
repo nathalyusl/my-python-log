@@ -320,7 +320,13 @@ texto = "Cliente: Mario Casas, Email: mariocasas@gmail.com, Tel: 555-1234. Clien
 resultado =  re.findall(r"\S+@\S+", texto)
 print("uso de findall: ", resultado)
 
+#____________________ Ejercicio: Divididr una cadena utilizando delimitadores _______________#
 
+import re 
+
+texto = "manzana,platáno;pera|cereza" 
+resultado = re.split(r",;|",texto)  # usa varios delitadores
+print(resultado)  
 
 
 
