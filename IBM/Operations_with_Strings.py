@@ -328,6 +328,20 @@ texto = "manzana,platáno;pera|cereza"
 resultado = re.split(r",;|",texto)  # usa varios delitadores
 print(resultado)  
 
+#____________________ Ejercicio: Extraer correo electrónico de un texto __________________#
+
+
+import re
+
+texto = "Mis correo electrónico son ejemplo@dominio.com y contacto@empresa.org"
+ 
+
+
+
+
+
+
+
 
 
 
