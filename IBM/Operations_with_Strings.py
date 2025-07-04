@@ -334,7 +334,7 @@ print(resultado)
 import re
 
 texto = "Mis correo electrónico son ejemplo@dominio.com y contacto@empresa.org"
- resultado = re.findall(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._]') 
+ resultado = re.findall(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._]+\.[a-zA-Z]') 
 
 
 
