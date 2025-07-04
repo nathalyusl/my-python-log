@@ -351,7 +351,9 @@ print(resultado)
 
 #.          + : uno o más de esos catácteres. 
 
+# 3. @    Caracter literal con r'' lee todos los caracteres como son
 
+# 4. [a-aZ-Z0-9.-]
 
 
 
