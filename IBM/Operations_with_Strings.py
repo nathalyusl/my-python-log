@@ -334,7 +334,24 @@ print(resultado)
 import re
 
 texto = "Mis correo electrónico son ejemplo@dominio.com y contacto@empresa.org"
- resultado = re.findall(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._]+\.[a-zA-Z]') 
+resultado = re.findall(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,0}') 
+print(resultado)
+
+# 1. r'...'       Texto crudo
+
+# 2. [a-zA-Z0-9._%+-]+           Esto captura la parte real local del correo antes del arroba.
+ 
+#.          [] : clase de caracteres.
+
+#.          a-zA-Z : letras minúsculas y mayúsculas.
+
+#.          0-9 : dígitos
+
+#.          ._%+- : caracteres permitidos (punto, guion bajo, porcentaje, más, menos.
+
+#.          + : uno o más de esos catácteres. 
+
+
 
 
 
