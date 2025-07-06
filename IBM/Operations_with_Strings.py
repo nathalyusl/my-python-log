@@ -355,7 +355,7 @@ print(resultado)
 
 # 4. [a-aZ-Z0-9.-]
 
-
+# 5.  \.   Esconde el . literal, porque en regex el puntonrepresenta cualquier carecter, aqui queremos un punto real que se pare el dominio y el TLD
 
 
 
