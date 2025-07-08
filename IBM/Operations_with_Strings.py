@@ -339,6 +339,7 @@ print(resultado)
 
 # 1. r'...'       Texto crudo
 
+
 # 2. [a-zA-Z0-9._%+-]+           Esto captura la parte real local del correo antes del arroba.
  
 #.          [] : clase de caracteres.
@@ -351,13 +352,18 @@ print(resultado)
 
 #.          + : uno o más de esos catácteres. 
 
+
 # 3. @    Caracter literal con r'' lee todos los caracteres como son
+
 
 # 4. [a-aZ-Z0-9.-]
 
-# 5.  \.   Esconde el . literal, porque en regex el puntonrepresenta cualquier carecter, aqui queremos un punto real que se pare el dominio y el TLD
+
+# 5.  \.   Esconde el . literal, porque en regex el punto representa cualquier carecter, aqui queremos un punto real que se pare el dominio y el TLD
 
 
+# 6. [a-zA-Z]{2,} Letras minúsculas o mayúsculas. 
+#      {2,} : Busca una secuencia de letras mayúsculas o minúsculas que tenga mínimo 2 letras. 
 
 
 
