@@ -365,6 +365,8 @@ print(resultado)
 # 6. [a-zA-Z]{2,} Letras minúsculas o mayúsculas. 
 #      {2,} : Busca una secuencia de letras mayúsculas o minúsculas que tenga mínimo 2 letras. 
 
+# {2,7}
+
 
 
 
