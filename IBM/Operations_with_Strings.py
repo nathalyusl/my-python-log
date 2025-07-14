@@ -386,7 +386,7 @@ print(resultado)
 #                           salto de línea
 #                           [ \t\n\r\f\v]
 
-#          \S.              lo conrario de \s    Cualquier caracter que no sea espacio
+#          \S               lo conrario de \s    Cualquier caracter que no sea espacio
 
 
 
