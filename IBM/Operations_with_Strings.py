@@ -380,7 +380,13 @@ print(resultado)
 
 #          \w               [a-zA-Z0-9_]       Cualquier letra, número o guión bajo.
 
+#          \W               [^a-zA-Z0-9_]      Cualquier carácter que no sea letra número o guión bajo
 
+#          \s               espacio, tab,      Cualquier espacio en blanco
+#                           salto de línea
+#                           [ \t\n\r\f\v]
+
+#          \S
 
 
 
