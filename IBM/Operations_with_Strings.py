@@ -365,9 +365,30 @@ print(resultado)
 # 6. [a-zA-Z]{2,} Letras minúsculas o mayúsculas. 
 #      {2,} : Busca una secuencia de letras mayúsculas o minúsculas que tenga mínimo 2 letras. 
 
+
+
+
 #-------------------------------------------
 # Equivalencias comunes en regex
 #-------------------------------------------
+
+#         Atajo           Equivale a          Significa
+
+#          \d               [0-9]              Cualquier dígito (número del 0-9)       
+
+#          
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
