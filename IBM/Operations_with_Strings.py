@@ -376,10 +376,9 @@ print(resultado)
 
 #          \d               [0-9]              Cualquier dígito (número del 0-9)       
 
-#          
+#          \D               [^0-9]             Cualquier caracter no numérico 
 
-
-
+#          \w               [a-zA-Z0-9_]       Cualquier letra, número o guión bajo.
 
 
 
