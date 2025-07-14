@@ -372,21 +372,21 @@ print(resultado)
 # Equivalencias comunes en regex
 #-------------------------------------------
 
-#         Atajo           Equivale a          Significa
+#         Atajo           Equivale a                   Significa
 
-#          \d               [0-9]              Cualquier dígito (número del 0-9)       
+#          \d               [0-9]                Cualquier dígito (número del 0-9)       
 
-#          \D               [^0-9]             Cualquier caracter no numérico 
+#          \D               [^0-9]               Cualquier caracter no numérico 
 
-#          \w               [a-zA-Z0-9_]       Cualquier letra, número o guión bajo.
+#          \w               [a-zA-Z0-9_]         Cualquier letra, número o guión bajo.
 
-#          \W               [^a-zA-Z0-9_]      Cualquier carácter que no sea letra número o guión bajo
+#          \W               [^a-zA-Z0-9_]        Cualquier carácter que no sea letra número o guión bajo
 
-#          \s               espacio, tab,      Cualquier espacio en blanco
+#          \s               espacio, tab,        Cualquier espacio en blanco
 #                           salto de línea
 #                           [ \t\n\r\f\v]
 
-#          \S
+#          \S.              lo conrario de \s    Cualquier caracter que no sea espacio
 
 
 
