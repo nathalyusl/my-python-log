@@ -389,7 +389,10 @@ print(resultado)
 #          \S               lo conrario de \s    Cualquier caracter que no sea espacio
 
 
+import re
 
+texto = "Número: 123 y letras: abc"
+print(re.findall(r'\d+', texto))
 
 
 
