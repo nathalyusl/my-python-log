@@ -392,8 +392,8 @@ print(resultado)
 import re
 
 texto = "Número: 123 y letras: abc"
-print(re.findall(r'\d+', texto))
-
+print(re.findall(r'\d+', texto)) #123
+print(re.findall(r'\D+',texto)) #abc
 
 
 
