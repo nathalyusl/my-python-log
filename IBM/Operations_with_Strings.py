@@ -301,7 +301,7 @@ texto = "Cliente: Mario Casas, Email: mariocasas@gmail.com, Tel: 555-1234. Clien
   else:
     print("match:","Not match")
 
-#________ re.search ______# Busca en todo el texto y devuelve en este caso el e-mail 
+#________ re.search ______# Busca en todo el texto y devuelve en este caso el e-mail
 
   resultado =  re.search(r"\S+@\S+", texto)
 
@@ -389,14 +389,23 @@ print(resultado)
 #          \S               lo conrario de \s    Cualquier caracter que no sea espacio
 
 
+#---------------------------------------------
+# Ejercicio de aplicación de las equivalencias
+#---------------------------------------------
 import re
 
 texto = "Número: 123 y letras: abc"
 print(re.findall(r'\d+', texto)) #123
-print(re.findall(r'\D+',texto)) #abc
+print(re.findall(r'\D+',texto)) # ['Número: ', ' y letras: abc']
 
 
+#----------------------------------------------------
+# Ejercicio: Buscar palabras con longitud específica
+#----------------------------------------------------
 
+import re
+texto = "Las palabras más cartas so la, de, y"
+resultado = re.findall(r'\b\w{2}\b', texto)
 
 
 
