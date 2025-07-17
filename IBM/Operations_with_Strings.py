@@ -301,7 +301,9 @@ texto = "Cliente: Mario Casas, Email: mariocasas@gmail.com, Tel: 555-1234. Clien
   else:
     print("match:","Not match")
 
-#________ re.search ______# Busca en todo el texto y devuelve en este caso el e-mail
+#________ re.search ______#
+# Busca en el texto y devuelve el email
+
 
   resultado =  re.search(r"\S+@\S+", texto)
 
