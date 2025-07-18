@@ -410,7 +410,9 @@ texto = "Las palabras más cartas so la, de, y"
 resultado = re.findall(r'\b\w{2}\b', texto)
 
 
-
+import re
+texto = "Bsucar numero aqui 123"
+resultado = re.findall(r'\d')
 
 
 
