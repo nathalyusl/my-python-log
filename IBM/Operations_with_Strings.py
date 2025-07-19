@@ -414,5 +414,10 @@ import re
 texto = "Bsucar numero aqui 123"
 resultado = re.findall(r'\d')
 
+import re
+texto = re.findall("      ")
+
+
+
 
 
