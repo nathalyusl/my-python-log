@@ -418,6 +418,9 @@ import re
 texto = re.findall("      ")
 
 
+def es_correo_valido(correo):
+    patron = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+    return bool(re.match(patron, correo))
 
 
 
