@@ -413,7 +413,10 @@ resultado = re.findall(r'\b\w{2}\b', texto)
 
 #   \w{2}: exactamente 2 caracteres alfanuméricos.
 
+import re
 
+texto = "Hoy es un día muy sol y paz total"
+resultado = re.findall(r'\b\w{3}\b', texto)
 
 
 import re
