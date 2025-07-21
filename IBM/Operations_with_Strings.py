@@ -417,6 +417,8 @@ import re
 
 texto = "Hoy es un día muy sol y paz total"
 resultado = re.findall(r'\b\w{3}\b', texto)
+print(resultado)
+# Salida: ['Hoy', 'día', 'muy', 'sol', 'paz']
 
 
 import re
