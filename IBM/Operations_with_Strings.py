@@ -409,6 +409,12 @@ import re
 texto = "Las palabras más cartas so la, de, y"
 resultado = re.findall(r'\b\w{2}\b', texto)
 
+#   \b: límite de palabra.
+
+#   \w{2}: exactamente 2 caracteres alfanuméricos.
+
+
+
 
 import re
 texto = "Bsucar numero aqui 123"
@@ -416,7 +422,6 @@ resultado = re.findall(r'\d')
 
 import re
 texto = re.findall("      ")
-
 
 def es_correo_valido(correo):
     patron = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
