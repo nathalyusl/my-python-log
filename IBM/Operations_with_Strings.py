@@ -415,14 +415,21 @@ resultado = re.findall(r'\b\w{2}\b', texto)
 
 import re
 
-texto = "Hoy es un día muy sol y paz total"
+texto = "Hoy es un día de mucho sol y paz total"
 resultado = re.findall(r'\b\w{3}\b', texto)
 print(resultado)
 # Salida: ['Hoy', 'día', 'muy', 'sol', 'paz']
 
+import re
+
+texto = "Cada paso debe estar bien hecho y claro"
+resultado = re.findall(r'\b\w{4}\b', texto)
+print(resultado)
+# Salida: ['Cada', 'paso', 'bien', 'hecho', 'claro']
+
 
 import re
-texto = "Bsucar numero aqui 123"
+texto = "Buscar numero aqui 123"
 resultado = re.findall(r'\d')
 
 import re
