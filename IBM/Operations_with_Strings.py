@@ -427,6 +427,8 @@ resultado = re.findall(r'\b\w{4}\b', texto)
 print(resultado)
 # Salida: ['Cada', 'paso', 'bien', 'hecho', 'claro']
 
+import re
+texto = "encontrar palabrasde cinco letras"
 
 import re
 texto = "Buscar numero aqui 123"
