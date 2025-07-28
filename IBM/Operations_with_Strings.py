@@ -432,6 +432,12 @@ texto = "encontrar palabras de cinco letras"
 resultado = re.findall(r'\b\w{5}\b',texto)
 print(resultado)
 
+texto = "Vamos todos juntos hasta lograr la meta"
+resultado = re.findall(r'\b\w{5}\b', texto)
+print(resultado)
+# Salida: ['Vamos', 'juntos', 'hasta', 'lograr'] → pero ‘juntos’, ‘lograr’ tienen 6 letras, así que salida real:
+# ['Vamos', 'hasta', 'meta']
+
 import re
 texto = "Buscar numero aqui 123"
 resultado = re.findall(r'\d')
