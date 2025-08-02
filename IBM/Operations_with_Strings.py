@@ -414,29 +414,38 @@ resultado = re.findall(r'\b\w{2}\b', texto)
 #   \w{2}: exactamente 2 caracteres alfanuméricos.
 
 import re
-
 texto = "Hoy es un día de mucho sol y paz total"
 resultado = re.findall(r'\b\w{3}\b', texto)
 print(resultado)
 # Salida: ['Hoy', 'día', 'muy', 'sol', 'paz']
 
-import re
 
+import re
 texto = "Cada paso debe estar bien hecho y claro"
 resultado = re.findall(r'\b\w{4}\b', texto)
 print(resultado)
 # Salida: ['Cada', 'paso', 'bien', 'hecho', 'claro']
+
 
 import re
 texto = "encontrar palabras de cinco letras"
 resultado = re.findall(r'\b\w{5}\b',texto)
 print(resultado)
 
+
+import re
 texto = "Vamos todos juntos hasta lograr la meta"
 resultado = re.findall(r'\b\w{5}\b', texto)
 print(resultado)
 # Salida: ['Vamos', 'juntos', 'hasta', 'lograr'] → pero ‘juntos’, ‘lograr’ tienen 6 letras, así que salida real:
 # ['Vamos', 'hasta', 'meta']
+
+import re
+texto = "Siempre debes actuar con valor, aunque cueste"
+resultado = re.findall(r'\b\w{6}\b', texto)
+print(resultado)
+# Salida: ['debes', 'actuar', 'aunque', 'cueste']
+
 
 import re
 texto = "Buscar numero aqui 123"
