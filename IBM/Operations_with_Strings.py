@@ -432,6 +432,10 @@ texto = "encontrar palabras de cinco letras"
 resultado = re.findall(r'\b\w{5}\b',texto)
 print(resultado)
 
+import re
+texto = "Siempre debes actuar con valor, aunque cueste"
+resultado = re.findall(r'\b\w{7}\b', texto)
+print(resultado)
 
 import re
 texto = "Vamos todos juntos hasta lograr la meta"
