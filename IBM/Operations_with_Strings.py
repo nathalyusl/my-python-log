@@ -450,6 +450,11 @@ resultado = re.findall(r'\b\w{6}\b', texto)
 print(resultado)
 # Salida: ['debes', 'actuar', 'aunque', 'cueste']
 
+import re
+texto = "Elefante camina por África pretendiendo un paso agigantado"
+resultado = re.findall(r'\b\w{7}\b', texto)
+print(resultado)
+
 
 import re
 texto = "Buscar numero aqui 123"
